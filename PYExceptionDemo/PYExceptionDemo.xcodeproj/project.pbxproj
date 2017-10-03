@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E7AC9B1F8333B40024BB2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7AC9A1F8333B40024BB2F /* AppDelegate.m */; };
+		04E7AC9E1F8333B40024BB2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7AC9D1F8333B40024BB2F /* ViewController.m */; };
+		04E7ACA11F8333B40024BB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E7AC9F1F8333B40024BB2F /* Main.storyboard */; };
+		04E7ACA31F8333B40024BB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E7ACA21F8333B40024BB2F /* Assets.xcassets */; };
+		04E7ACA61F8333B40024BB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E7ACA41F8333B40024BB2F /* LaunchScreen.storyboard */; };
+		04E7ACA91F8333B40024BB2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACA81F8333B40024BB2F /* main.m */; };
+		04E7ACB31F8336770024BB2F /* NSObject+PYSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACB21F8336770024BB2F /* NSObject+PYSwizzling.m */; };
+		04E7ACB71F8338880024BB2F /* NSArray+PYNSArrayException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACB61F8338880024BB2F /* NSArray+PYNSArrayException.m */; };
+		04E7ACBF1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACBE1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m */; };
+		04E7ACC21F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACC11F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m */; };
+		04E7ACC51F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACC41F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m */; };
+		04E7ACC81F833B850024BB2F /* NSNull+PYNSNullException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACC71F833B850024BB2F /* NSNull+PYNSNullException.m */; };
+		04E7ACCB1F833BCA0024BB2F /* NSString+PYNSStringException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACCA1F833BCA0024BB2F /* NSString+PYNSStringException.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04E7AC961F8333B40024BB2F /* PYExceptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYExceptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E7AC991F8333B40024BB2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E7AC9A1F8333B40024BB2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E7AC9C1F8333B40024BB2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E7AC9D1F8333B40024BB2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04E7ACA01F8333B40024BB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E7ACA21F8333B40024BB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E7ACA51F8333B40024BB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E7ACA71F8333B40024BB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E7ACA81F8333B40024BB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E7ACB11F8336770024BB2F /* NSObject+PYSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYSwizzling.h"; sourceTree = "<group>"; };
+		04E7ACB21F8336770024BB2F /* NSObject+PYSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYSwizzling.m"; sourceTree = "<group>"; };
+		04E7ACB51F8338880024BB2F /* NSArray+PYNSArrayException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+PYNSArrayException.h"; sourceTree = "<group>"; };
+		04E7ACB61F8338880024BB2F /* NSArray+PYNSArrayException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PYNSArrayException.m"; sourceTree = "<group>"; };
+		04E7ACBD1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PYNSDictionaryException.h"; sourceTree = "<group>"; };
+		04E7ACBE1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PYNSDictionaryException.m"; sourceTree = "<group>"; };
+		04E7ACC01F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+PYNSMutableAttributedStringException.h"; sourceTree = "<group>"; };
+		04E7ACC11F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+PYNSMutableAttributedStringException.m"; sourceTree = "<group>"; };
+		04E7ACC31F833B510024BB2F /* NSMutableString+PYNSMutableStringException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+PYNSMutableStringException.h"; sourceTree = "<group>"; };
+		04E7ACC41F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+PYNSMutableStringException.m"; sourceTree = "<group>"; };
+		04E7ACC61F833B850024BB2F /* NSNull+PYNSNullException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+PYNSNullException.h"; sourceTree = "<group>"; };
+		04E7ACC71F833B850024BB2F /* NSNull+PYNSNullException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+PYNSNullException.m"; sourceTree = "<group>"; };
+		04E7ACC91F833BCA0024BB2F /* NSString+PYNSStringException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+PYNSStringException.h"; sourceTree = "<group>"; };
+		04E7ACCA1F833BCA0024BB2F /* NSString+PYNSStringException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+PYNSStringException.m"; sourceTree = "<group>"; };
+		04E7ACCC1F833E9A0024BB2F /* PYExceptionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYExceptionHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E7AC931F8333B40024BB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E7AC8D1F8333B40024BB2F = {
+			isa = PBXGroup;
+			children = (
+				04E7AC981F8333B40024BB2F /* PYExceptionDemo */,
+				04E7AC971F8333B40024BB2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E7AC971F8333B40024BB2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E7AC961F8333B40024BB2F /* PYExceptionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E7AC981F8333B40024BB2F /* PYExceptionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACAF1F8336270024BB2F /* PYException */,
+				04E7AC991F8333B40024BB2F /* AppDelegate.h */,
+				04E7AC9A1F8333B40024BB2F /* AppDelegate.m */,
+				04E7AC9C1F8333B40024BB2F /* ViewController.h */,
+				04E7AC9D1F8333B40024BB2F /* ViewController.m */,
+				04E7AC9F1F8333B40024BB2F /* Main.storyboard */,
+				04E7ACA21F8333B40024BB2F /* Assets.xcassets */,
+				04E7ACA41F8333B40024BB2F /* LaunchScreen.storyboard */,
+				04E7ACA71F8333B40024BB2F /* Info.plist */,
+				04E7ACA81F8333B40024BB2F /* main.m */,
+			);
+			path = PYExceptionDemo;
+			sourceTree = "<group>";
+		};
+		04E7ACAF1F8336270024BB2F /* PYException */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACB81F833A9A0024BB2F /* NSDictionary */,
+				04E7ACB91F833A9A0024BB2F /* NSMutableAttributedString */,
+				04E7ACBA1F833A9A0024BB2F /* NSMutableString */,
+				04E7ACBC1F833A9B0024BB2F /* NSNull */,
+				04E7ACBB1F833A9A0024BB2F /* NSString */,
+				04E7ACB41F8338470024BB2F /* NSArray */,
+				04E7ACB01F8336550024BB2F /* Swizzling */,
+				04E7ACCC1F833E9A0024BB2F /* PYExceptionHeader.h */,
+			);
+			name = PYException;
+			path = ../../PYException;
+			sourceTree = "<group>";
+		};
+		04E7ACB01F8336550024BB2F /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACB11F8336770024BB2F /* NSObject+PYSwizzling.h */,
+				04E7ACB21F8336770024BB2F /* NSObject+PYSwizzling.m */,
+			);
+			path = Swizzling;
+			sourceTree = "<group>";
+		};
+		04E7ACB41F8338470024BB2F /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACB51F8338880024BB2F /* NSArray+PYNSArrayException.h */,
+				04E7ACB61F8338880024BB2F /* NSArray+PYNSArrayException.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		04E7ACB81F833A9A0024BB2F /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACBD1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.h */,
+				04E7ACBE1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		04E7ACB91F833A9A0024BB2F /* NSMutableAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACC01F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.h */,
+				04E7ACC11F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m */,
+			);
+			path = NSMutableAttributedString;
+			sourceTree = "<group>";
+		};
+		04E7ACBA1F833A9A0024BB2F /* NSMutableString */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACC31F833B510024BB2F /* NSMutableString+PYNSMutableStringException.h */,
+				04E7ACC41F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m */,
+			);
+			path = NSMutableString;
+			sourceTree = "<group>";
+		};
+		04E7ACBB1F833A9A0024BB2F /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACC91F833BCA0024BB2F /* NSString+PYNSStringException.h */,
+				04E7ACCA1F833BCA0024BB2F /* NSString+PYNSStringException.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		04E7ACBC1F833A9B0024BB2F /* NSNull */ = {
+			isa = PBXGroup;
+			children = (
+				04E7ACC61F833B850024BB2F /* NSNull+PYNSNullException.h */,
+				04E7ACC71F833B850024BB2F /* NSNull+PYNSNullException.m */,
+			);
+			path = NSNull;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E7AC951F8333B40024BB2F /* PYExceptionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E7ACAC1F8333B40024BB2F /* Build configuration list for PBXNativeTarget "PYExceptionDemo" */;
+			buildPhases = (
+				04E7AC921F8333B40024BB2F /* Sources */,
+				04E7AC931F8333B40024BB2F /* Frameworks */,
+				04E7AC941F8333B40024BB2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYExceptionDemo;
+			productName = PYExceptionDemo;
+			productReference = 04E7AC961F8333B40024BB2F /* PYExceptionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E7AC8E1F8333B40024BB2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "于浦洋";
+				TargetAttributes = {
+					04E7AC951F8333B40024BB2F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04E7AC911F8333B40024BB2F /* Build configuration list for PBXProject "PYExceptionDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E7AC8D1F8333B40024BB2F;
+			productRefGroup = 04E7AC971F8333B40024BB2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E7AC951F8333B40024BB2F /* PYExceptionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E7AC941F8333B40024BB2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E7ACA61F8333B40024BB2F /* LaunchScreen.storyboard in Resources */,
+				04E7ACA31F8333B40024BB2F /* Assets.xcassets in Resources */,
+				04E7ACA11F8333B40024BB2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E7AC921F8333B40024BB2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E7ACBF1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m in Sources */,
+				04E7AC9E1F8333B40024BB2F /* ViewController.m in Sources */,
+				04E7ACB71F8338880024BB2F /* NSArray+PYNSArrayException.m in Sources */,
+				04E7ACC81F833B850024BB2F /* NSNull+PYNSNullException.m in Sources */,
+				04E7ACC21F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m in Sources */,
+				04E7ACA91F8333B40024BB2F /* main.m in Sources */,
+				04E7ACB31F8336770024BB2F /* NSObject+PYSwizzling.m in Sources */,
+				04E7ACC51F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m in Sources */,
+				04E7ACCB1F833BCA0024BB2F /* NSString+PYNSStringException.m in Sources */,
+				04E7AC9B1F8333B40024BB2F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E7AC9F1F8333B40024BB2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E7ACA01F8333B40024BB2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E7ACA41F8333B40024BB2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E7ACA51F8333B40024BB2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E7ACAA1F8333B40024BB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E7ACAB1F8333B40024BB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E7ACAD1F8333B40024BB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				INFOPLIST_FILE = PYExceptionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puyang.exception.PYExceptionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E7ACAE1F8333B40024BB2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				INFOPLIST_FILE = PYExceptionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puyang.exception.PYExceptionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E7AC911F8333B40024BB2F /* Build configuration list for PBXProject "PYExceptionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E7ACAA1F8333B40024BB2F /* Debug */,
+				04E7ACAB1F8333B40024BB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E7ACAC1F8333B40024BB2F /* Build configuration list for PBXNativeTarget "PYExceptionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E7ACAD1F8333B40024BB2F /* Debug */,
+				04E7ACAE1F8333B40024BB2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E7AC8E1F8333B40024BB2F /* Project object */;
+}
