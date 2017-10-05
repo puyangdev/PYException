@@ -13,13 +13,7 @@
 		04E7ACA31F8333B40024BB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E7ACA21F8333B40024BB2F /* Assets.xcassets */; };
 		04E7ACA61F8333B40024BB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E7ACA41F8333B40024BB2F /* LaunchScreen.storyboard */; };
 		04E7ACA91F8333B40024BB2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACA81F8333B40024BB2F /* main.m */; };
-		04E7ACB31F8336770024BB2F /* NSObject+PYSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACB21F8336770024BB2F /* NSObject+PYSwizzling.m */; };
-		04E7ACB71F8338880024BB2F /* NSArray+PYNSArrayException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACB61F8338880024BB2F /* NSArray+PYNSArrayException.m */; };
-		04E7ACBF1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACBE1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m */; };
-		04E7ACC21F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACC11F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m */; };
-		04E7ACC51F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACC41F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m */; };
-		04E7ACC81F833B850024BB2F /* NSNull+PYNSNullException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACC71F833B850024BB2F /* NSNull+PYNSNullException.m */; };
-		04E7ACCB1F833BCA0024BB2F /* NSString+PYNSStringException.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACCA1F833BCA0024BB2F /* NSString+PYNSStringException.m */; };
+		9D858A28660512DB9804D3FD /* libPods-PYExceptionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2BD383B3999635B55C61BC /* libPods-PYExceptionDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,21 +27,9 @@
 		04E7ACA51F8333B40024BB2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E7ACA71F8333B40024BB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E7ACA81F8333B40024BB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04E7ACB11F8336770024BB2F /* NSObject+PYSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYSwizzling.h"; sourceTree = "<group>"; };
-		04E7ACB21F8336770024BB2F /* NSObject+PYSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYSwizzling.m"; sourceTree = "<group>"; };
-		04E7ACB51F8338880024BB2F /* NSArray+PYNSArrayException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+PYNSArrayException.h"; sourceTree = "<group>"; };
-		04E7ACB61F8338880024BB2F /* NSArray+PYNSArrayException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PYNSArrayException.m"; sourceTree = "<group>"; };
-		04E7ACBD1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PYNSDictionaryException.h"; sourceTree = "<group>"; };
-		04E7ACBE1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PYNSDictionaryException.m"; sourceTree = "<group>"; };
-		04E7ACC01F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+PYNSMutableAttributedStringException.h"; sourceTree = "<group>"; };
-		04E7ACC11F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+PYNSMutableAttributedStringException.m"; sourceTree = "<group>"; };
-		04E7ACC31F833B510024BB2F /* NSMutableString+PYNSMutableStringException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+PYNSMutableStringException.h"; sourceTree = "<group>"; };
-		04E7ACC41F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+PYNSMutableStringException.m"; sourceTree = "<group>"; };
-		04E7ACC61F833B850024BB2F /* NSNull+PYNSNullException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNull+PYNSNullException.h"; sourceTree = "<group>"; };
-		04E7ACC71F833B850024BB2F /* NSNull+PYNSNullException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNull+PYNSNullException.m"; sourceTree = "<group>"; };
-		04E7ACC91F833BCA0024BB2F /* NSString+PYNSStringException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+PYNSStringException.h"; sourceTree = "<group>"; };
-		04E7ACCA1F833BCA0024BB2F /* NSString+PYNSStringException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+PYNSStringException.m"; sourceTree = "<group>"; };
-		04E7ACCC1F833E9A0024BB2F /* PYExceptionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYExceptionHeader.h; sourceTree = "<group>"; };
+		2C2BD383B3999635B55C61BC /* libPods-PYExceptionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYExceptionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27D219A338CCE451FAAED30 /* Pods-PYExceptionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYExceptionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYExceptionDemo/Pods-PYExceptionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5F08A74A8749589A56E562 /* Pods-PYExceptionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYExceptionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYExceptionDemo/Pods-PYExceptionDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D858A28660512DB9804D3FD /* libPods-PYExceptionDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +49,8 @@
 			children = (
 				04E7AC981F8333B40024BB2F /* PYExceptionDemo */,
 				04E7AC971F8333B40024BB2F /* Products */,
+				BE137DDAA7232E5B4DF6EEC9 /* Pods */,
+				58F5EB9B4F4560A61580CD36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,7 +65,6 @@
 		04E7AC981F8333B40024BB2F /* PYExceptionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04E7ACAF1F8336270024BB2F /* PYException */,
 				04E7AC991F8333B40024BB2F /* AppDelegate.h */,
 				04E7AC9A1F8333B40024BB2F /* AppDelegate.m */,
 				04E7AC9C1F8333B40024BB2F /* ViewController.h */,
@@ -94,83 +78,21 @@
 			path = PYExceptionDemo;
 			sourceTree = "<group>";
 		};
-		04E7ACAF1F8336270024BB2F /* PYException */ = {
+		58F5EB9B4F4560A61580CD36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04E7ACB81F833A9A0024BB2F /* NSDictionary */,
-				04E7ACB91F833A9A0024BB2F /* NSMutableAttributedString */,
-				04E7ACBA1F833A9A0024BB2F /* NSMutableString */,
-				04E7ACBC1F833A9B0024BB2F /* NSNull */,
-				04E7ACBB1F833A9A0024BB2F /* NSString */,
-				04E7ACB41F8338470024BB2F /* NSArray */,
-				04E7ACB01F8336550024BB2F /* Swizzling */,
-				04E7ACCC1F833E9A0024BB2F /* PYExceptionHeader.h */,
+				2C2BD383B3999635B55C61BC /* libPods-PYExceptionDemo.a */,
 			);
-			name = PYException;
-			path = ../../PYException;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		04E7ACB01F8336550024BB2F /* Swizzling */ = {
+		BE137DDAA7232E5B4DF6EEC9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04E7ACB11F8336770024BB2F /* NSObject+PYSwizzling.h */,
-				04E7ACB21F8336770024BB2F /* NSObject+PYSwizzling.m */,
+				D27D219A338CCE451FAAED30 /* Pods-PYExceptionDemo.debug.xcconfig */,
+				FB5F08A74A8749589A56E562 /* Pods-PYExceptionDemo.release.xcconfig */,
 			);
-			path = Swizzling;
-			sourceTree = "<group>";
-		};
-		04E7ACB41F8338470024BB2F /* NSArray */ = {
-			isa = PBXGroup;
-			children = (
-				04E7ACB51F8338880024BB2F /* NSArray+PYNSArrayException.h */,
-				04E7ACB61F8338880024BB2F /* NSArray+PYNSArrayException.m */,
-			);
-			path = NSArray;
-			sourceTree = "<group>";
-		};
-		04E7ACB81F833A9A0024BB2F /* NSDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				04E7ACBD1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.h */,
-				04E7ACBE1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m */,
-			);
-			path = NSDictionary;
-			sourceTree = "<group>";
-		};
-		04E7ACB91F833A9A0024BB2F /* NSMutableAttributedString */ = {
-			isa = PBXGroup;
-			children = (
-				04E7ACC01F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.h */,
-				04E7ACC11F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m */,
-			);
-			path = NSMutableAttributedString;
-			sourceTree = "<group>";
-		};
-		04E7ACBA1F833A9A0024BB2F /* NSMutableString */ = {
-			isa = PBXGroup;
-			children = (
-				04E7ACC31F833B510024BB2F /* NSMutableString+PYNSMutableStringException.h */,
-				04E7ACC41F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m */,
-			);
-			path = NSMutableString;
-			sourceTree = "<group>";
-		};
-		04E7ACBB1F833A9A0024BB2F /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				04E7ACC91F833BCA0024BB2F /* NSString+PYNSStringException.h */,
-				04E7ACCA1F833BCA0024BB2F /* NSString+PYNSStringException.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		04E7ACBC1F833A9B0024BB2F /* NSNull */ = {
-			isa = PBXGroup;
-			children = (
-				04E7ACC61F833B850024BB2F /* NSNull+PYNSNullException.h */,
-				04E7ACC71F833B850024BB2F /* NSNull+PYNSNullException.m */,
-			);
-			path = NSNull;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E7ACAC1F8333B40024BB2F /* Build configuration list for PBXNativeTarget "PYExceptionDemo" */;
 			buildPhases = (
+				D0C9E6F2EE0CF61708F5450F /* [CP] Check Pods Manifest.lock */,
 				04E7AC921F8333B40024BB2F /* Sources */,
 				04E7AC931F8333B40024BB2F /* Frameworks */,
 				04E7AC941F8333B40024BB2F /* Resources */,
+				985D351911A3A9DF6842B5AB /* [CP] Embed Pods Frameworks */,
+				30631BC757EA02E55F6FD5F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,20 +164,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30631BC757EA02E55F6FD5F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYExceptionDemo/Pods-PYExceptionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985D351911A3A9DF6842B5AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYExceptionDemo/Pods-PYExceptionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C9E6F2EE0CF61708F5450F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYExceptionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04E7AC921F8333B40024BB2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E7ACBF1F833ACE0024BB2F /* NSDictionary+PYNSDictionaryException.m in Sources */,
 				04E7AC9E1F8333B40024BB2F /* ViewController.m in Sources */,
-				04E7ACB71F8338880024BB2F /* NSArray+PYNSArrayException.m in Sources */,
-				04E7ACC81F833B850024BB2F /* NSNull+PYNSNullException.m in Sources */,
-				04E7ACC21F833B0B0024BB2F /* NSMutableAttributedString+PYNSMutableAttributedStringException.m in Sources */,
 				04E7ACA91F8333B40024BB2F /* main.m in Sources */,
-				04E7ACB31F8336770024BB2F /* NSObject+PYSwizzling.m in Sources */,
-				04E7ACC51F833B510024BB2F /* NSMutableString+PYNSMutableStringException.m in Sources */,
-				04E7ACCB1F833BCA0024BB2F /* NSString+PYNSStringException.m in Sources */,
 				04E7AC9B1F8333B40024BB2F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +354,7 @@
 		};
 		04E7ACAD1F8333B40024BB2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27D219A338CCE451FAAED30 /* Pods-PYExceptionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -399,6 +369,7 @@
 		};
 		04E7ACAE1F8333B40024BB2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5F08A74A8749589A56E562 /* Pods-PYExceptionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

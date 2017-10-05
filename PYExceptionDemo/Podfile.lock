@@ -1,0 +1,22 @@
+PODS:
+  - PYException (0.0.2)
+  - PYTools (0.0.4):
+    - ReactiveObjC (~> 3.0.0)
+  - ReactiveObjC (3.0.0)
+
+DEPENDENCIES:
+  - PYException (from `/Users/mac/Desktop/Test/PYException`)
+  - PYTools (~> 0.0.4)
+
+EXTERNAL SOURCES:
+  PYException:
+    :path: /Users/mac/Desktop/Test/PYException
+
+SPEC CHECKSUMS:
+  PYException: 91e2ee299913c1123824a40e0482da1b38a67009
+  PYTools: bc38859034a8e9297bdc33ba7df54b4fa353e9a6
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+
+PODFILE CHECKSUM: 83086b5c0d8522ff96402504a98dbd833c4b9f1a
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+
+def shared_pods
+    pod 'PYTools', '~> 0.0.4'
+    pod 'PYException', :path => '/Users/mac/Desktop/Test/PYException'
+    #/Users/mac/Desktop/Test/PYTools
+    #pod 'PYTools', :path => '/Users/mac/Desktop/Test/PYTools'
+    #pod 'FCUUID'
+end
+target "PYExceptionDemo" do
+shared_pods
+end
