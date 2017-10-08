@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <PYException/PYExceptionHeader.h>
 
 @interface ViewController ()
 
@@ -19,7 +20,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    NSMutableDictionary *mutDic = [[NSMutableDictionary alloc] init];
+    [mutDic setObject:nil forKey:nil];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

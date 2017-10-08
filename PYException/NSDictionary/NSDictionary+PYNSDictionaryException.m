@@ -9,6 +9,7 @@
 #import "NSDictionary+PYNSDictionaryException.h"
 #import "NSObject+PYSwizzling.h"
 #import <objc/runtime.h>
+#import <PYTools/PYToolsHeader.h>
 
 @implementation NSDictionary (PYNSDictionaryException)
 
@@ -18,6 +19,9 @@
         @autoreleasepool {
             [objc_getClass("__NSDictionaryI") py_swizzleMethod:@selector(objectForKey:) swizzledSelector:@selector(py_replace_objectForKey:)];
             [objc_getClass("__NSDictionaryI") py_swizzleMethod:@selector(length) swizzledSelector:@selector(py_replace_length)];
+           [objc_getClass("__NSDictionaryM") py_swizzleMethod:@selector(setObject:forKey:) swizzledSelector:@selector(py_setObject:forKey:)];
+            [objc_getClass("__NSPlaceholderDictionary") py_swizzleMethod:@selector(initWithObjects:forKeys:count:)
+                                                                swizzledSelector:@selector(py_initWithObjects:forKeys:count:)];
         }
     });
 }
@@ -27,6 +31,29 @@
         return [self py_replace_objectForKey:key];
     }
     return nil;
+}
+
+- (void)py_setObject:(id)anObject forKey:(id<NSCopying>)aKey {
+    @try {
+        [self py_setObject:anObject forKey:aKey];
+    }
+    @catch (NSException *exception) {
+        PYLogError(exception);
+    }
+}
+
+- (instancetype)py_initWithObjects:(id  _Nonnull const [])objects forKeys:(id<NSCopying>  _Nonnull const [])keys count:(NSUInteger)cnt {
+    id dictionary = nil;
+    @try {
+        dictionary = [self py_initWithObjects:objects
+                                        forKeys:keys
+                                          count:cnt];
+    }
+    @catch (NSException *exception) {
+        PYLogError(exception);
+        dictionary = nil;
+    }
+    return dictionary;
 }
 
 - (NSUInteger)py_replace_length {
