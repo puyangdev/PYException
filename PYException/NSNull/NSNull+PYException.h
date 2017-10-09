@@ -1,5 +1,5 @@
 //
-//  NSString+PYNSStringException.h
+//  NSNull+PYException.h
 //  PYExceptionDemo
 //
 //  Created by mac on 2017/10/3.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (PYNSStringException)
+@interface NSNull (PYException)
 
 @end

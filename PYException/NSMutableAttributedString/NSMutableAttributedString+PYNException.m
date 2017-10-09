@@ -1,23 +1,22 @@
 //
-//  NSMutableString+PYNSMutableStringException.m
+//  NSMutableAttributedString+PYException.m
 //  PYExceptionDemo
 //
 //  Created by mac on 2017/10/3.
 //  Copyright © 2017年 于浦洋. All rights reserved.
 //
 
-#import "NSMutableString+PYNSMutableStringException.h"
+#import "NSMutableAttributedString+PYException.h"
 #import "NSObject+PYSwizzling.h"
 #import <objc/runtime.h>
 
-@implementation NSMutableString (PYNSMutableStringException)
+@implementation NSMutableAttributedString (PYException)
 
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [objc_getClass("__NSCFString") py_swizzleMethod:@selector(replaceCharactersInRange:withString:) swizzledSelector:@selector(py_alert_replaceCharactersInRange:withString:)];
-            [objc_getClass("__NSCFString") py_swizzleMethod:@selector(objectForKeyedSubscript:) swizzledSelector:@selector(py_replace_objectForKeyedSubscript:)];
+            [objc_getClass("NSConcreteMutableAttributedString") py_swizzleMethod:@selector(replaceCharactersInRange:withString:) swizzledSelector:@selector(py_alert_replaceCharactersInRange:withString:)];
         }
     });
 }
@@ -29,9 +28,4 @@
         [self py_alert_replaceCharactersInRange:range withString:aString];
     }
 }
-
-- (id)py_replace_objectForKeyedSubscript:(NSString *)key {
-    return nil;
-}
-
 @end

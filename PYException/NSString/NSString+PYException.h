@@ -1,13 +1,13 @@
 //
-//  NSString+PYNSStringException.m
+//  NSString+PYException.h
 //  PYExceptionDemo
 //
 //  Created by mac on 2017/10/3.
 //  Copyright © 2017年 于浦洋. All rights reserved.
 //
 
-#import "NSString+PYNSStringException.h"
+#import <Foundation/Foundation.h>
 
-@implementation NSString (PYNSStringException)
+@interface NSString (PYException)
 
 @end

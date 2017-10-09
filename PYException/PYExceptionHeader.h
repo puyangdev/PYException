@@ -9,10 +9,10 @@
 #ifndef PYExceptionHeader_h
 #define PYExceptionHeader_h
 #import "NSObject+PYSwizzling.h"
-#import "NSArray+PYNSArrayException.h"
-#import "NSString+PYNSStringException.h"
-#import "NSNull+PYNSNullException.h"
-#import "NSMutableString+PYNSMutableStringException.h"
-#import "NSMutableAttributedString+PYNSMutableAttributedStringException.h"
-#import "NSDictionary+PYNSDictionaryException.h"
+#import "NSArray+PYException.h"
+#import "NSString+PYException.h"
+#import "NSNull+PYException.h"
+#import "NSMutableString+PYException.h"
+#import "NSMutableAttributedString+PYException.h"
+#import "NSDictionary+PYException.h"
 #endif /* PYExceptionHeader_h */

@@ -1,16 +1,16 @@
 //
-//  NSNull+PYNSNullException.m
+//  NSNull+PYException.m
 //  PYExceptionDemo
 //
 //  Created by mac on 2017/10/3.
 //  Copyright © 2017年 于浦洋. All rights reserved.
 //
 
-#import "NSNull+PYNSNullException.h"
+#import "NSNull+PYException.h"
 #import "NSObject+PYSwizzling.h"
 #import <objc/runtime.h>
 
-@implementation NSNull (PYNSNullException)
+@implementation NSNull (PYException)
 
 + (void)load {
     static dispatch_once_t onceToken;

@@ -1,15 +1,15 @@
 //
-//  NSArray+PYNSArrayException.m
+//  NSArray+PYException.m
 //  PYExceptionDemo
 //
 //  Created by mac on 2017/10/3.
 //  Copyright © 2017年 于浦洋. All rights reserved.
 //
 
-#import "NSArray+PYNSArrayException.h"
+#import "NSArray+PYException.h"
 #import <objc/runtime.h>
 #import "NSObject+PYSwizzling.h"
-@implementation NSArray (PYNSArrayException)
+@implementation NSArray (PYException)
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

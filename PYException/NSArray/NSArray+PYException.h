@@ -1,5 +1,5 @@
 //
-//  NSNull+PYNSNullException.h
+//  NSArray+PYException.h
 //  PYExceptionDemo
 //
 //  Created by mac on 2017/10/3.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSNull (PYNSNullException)
+@interface NSArray (PYException)
 
 @end

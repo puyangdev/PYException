@@ -1,5 +1,5 @@
 //
-//  NSMutableString+PYNSMutableStringException.h
+//  NSMutableString+PYException.h
 //  PYExceptionDemo
 //
 //  Created by mac on 2017/10/3.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableString (PYNSMutableStringException)
+@interface NSMutableString (PYException)
 
 @end
