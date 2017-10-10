@@ -37,7 +37,7 @@
         [self py_setObject:anObject forKey:aKey];
     }
     @catch (NSException *exception) {
-         NSLog(@"%@", exception.description);
+         NSLog(exception.description);
     }
 }
 
@@ -49,7 +49,7 @@
                                           count:cnt];
     }
     @catch (NSException *exception) {
-        NSLog(@"%@", exception.description);
+        NSLog(exception.description);
         dictionary = nil;
     }
     return dictionary;
