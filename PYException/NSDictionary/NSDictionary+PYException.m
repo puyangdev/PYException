@@ -9,7 +9,6 @@
 #import "NSDictionary+PYException.h"
 #import "NSObject+PYSwizzling.h"
 #import <objc/runtime.h>
-#import <PYTools/PYToolsHeader.h>
 
 @implementation NSDictionary (PYException)
 
@@ -38,7 +37,7 @@
         [self py_setObject:anObject forKey:aKey];
     }
     @catch (NSException *exception) {
-        PYLogError(exception);
+        NSLog(exception);
     }
 }
 
@@ -50,7 +49,7 @@
                                           count:cnt];
     }
     @catch (NSException *exception) {
-        PYLogError(exception);
+        NSLog(exception);
         dictionary = nil;
     }
     return dictionary;
