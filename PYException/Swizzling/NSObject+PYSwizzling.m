@@ -5,11 +5,40 @@
 //  Created by mac on 2017/10/3.
 //  Copyright © 2017年 于浦洋. All rights reserved.
 //
+#ifdef DEBUG
+#define PYLog(fmt,...) NSLog((@"\n\n[行号]%d\n" "[函数名]%s\n" "[日志]" fmt"\n"),__LINE__,__FUNCTION__,##__VA_ARGS__);
+#define PYLogError(arg,...) \
+{\
+if([arg isKindOfClass:[NSException class]] || [arg isKindOfClass:[NSError class]]){\
+NSLog(@"\n\n[行号]%d\n" "[函数名]%s\n" "[日志]%@\n", __LINE__, __FUNCTION__, arg);\
+}else{\
+NSLog((@"\n\n[行号]%d\n" "[函数名]%s\n" "[日志]" #arg"\n"), __LINE__, __FUNCTION__, ##__VA_ARGS__); }\
+}
+#else
+#define PYLog(fmt,...);
+#define PYLogError(arg,...) \
+{\
+if([arg isKindOfClass:[NSException class]] || [arg isKindOfClass:[NSError class]]){\
+NSLog(@"\n\n[行号]%d\n" "[函数名]%s\n" "[日志]%@\n", __LINE__, __FUNCTION__, arg);\
+}else{\
+NSLog((@"\n\n[行号]%d\n" "[函数名]%s\n" "[日志]" #arg"\n"), __LINE__, __FUNCTION__, ##__VA_ARGS__); }\
+}
+#endif
 
 #import "NSObject+PYSwizzling.h"
 #import <objc/runtime.h>
 
 @implementation NSObject (PYSwizzling)
+
++ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        @autoreleasepool {
+            [[self class] py_swizzleMethod:@selector(valueForKey:) swizzledSelector:@selector(py_valueForKey:)];
+        }
+    });
+}
+
 + (void)py_swizzleMethod:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector {
     Class class = [self class];
     //原有方法
@@ -27,5 +56,14 @@
     } else {//添加失败：如果源SEL已经有IMP，直接将两个SEL的IMP交换即可
         method_exchangeImplementations(originalMethod, swizzledMethod);
     }
+}
+- (id)py_valueForKey:(NSString *)key {
+    @try {
+        return [self py_valueForKey:key];
+    }
+    @catch (NSException *exception) {
+        PYLogError(exception);
+    }
+    return nil;
 }
 @end
