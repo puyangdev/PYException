@@ -16,7 +16,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [objc_getClass("NSNull") py_swizzleMethod:@selector(length) swizzledSelector:@selector(py_replace_length)];
+            if (!DEBUG_FLAG) {
+                 [objc_getClass("NSNull") py_swizzleMethod:@selector(length) swizzledSelector:@selector(py_replace_length)];
+            }
         }
     });
 }

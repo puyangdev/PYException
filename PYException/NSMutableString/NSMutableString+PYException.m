@@ -16,15 +16,17 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [objc_getClass("__NSCFString") py_swizzleMethod:@selector(replaceCharactersInRange:withString:) swizzledSelector:@selector(py_alert_replaceCharactersInRange:withString:)];
-            [objc_getClass("__NSCFString") py_swizzleMethod:@selector(objectForKeyedSubscript:) swizzledSelector:@selector(py_replace_objectForKeyedSubscript:)];
+            if (!DEBUG_FLAG) {
+                [objc_getClass("__NSCFString") py_swizzleMethod:@selector(replaceCharactersInRange:withString:) swizzledSelector:@selector(py_alert_replaceCharactersInRange:withString:)];
+                [objc_getClass("__NSCFString") py_swizzleMethod:@selector(objectForKeyedSubscript:) swizzledSelector:@selector(py_replace_objectForKeyedSubscript:)];
+            }
         }
     });
 }
 
 - (void)py_alert_replaceCharactersInRange:(NSRange)range withString:(NSString *)aString {
     if ((range.location + range.length) > self.length) {
-        NSLog(@"error: Range or index out of bounds");
+        PYLog(@"error: Range or index out of bounds");
     }else {
         [self py_alert_replaceCharactersInRange:range withString:aString];
     }

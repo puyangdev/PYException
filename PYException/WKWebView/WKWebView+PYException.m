@@ -7,12 +7,16 @@
 
 #import "WKWebView+PYException.h"
 #import <objc/runtime.h>
+#import "NSObject+PYSwizzling.h"
+
 @implementation WKWebView (PYException)
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [self progressWKContentViewCrash];
+            if (!DEBUG_FLAG) {
+                [self progressWKContentViewCrash];
+            }
         }
     });
 }
@@ -29,7 +33,7 @@
         BOOL addIsSecureTextEntry = class_addMethod(WKContentViewClass, isSecureTextEntry, (IMP)isSecureTextEntryIMP, "B@:");
         BOOL addSecureTextEntry = class_addMethod(WKContentViewClass, secureTextEntry, (IMP)secureTextEntryIMP, "B@:");
         if (!addIsSecureTextEntry || !addSecureTextEntry) {
-            NSLog(@"WKContentView-Crash->修复失败");
+            PYLog(@"WKContentView-Crash->修复失败");
         }
     }
 }

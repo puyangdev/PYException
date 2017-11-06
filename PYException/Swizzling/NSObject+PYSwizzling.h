@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PYExceptionGlobal.h"
 
 @interface NSObject (PYSwizzling)
 + (void)py_swizzleMethod:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector;

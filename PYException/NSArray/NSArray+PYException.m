@@ -14,11 +14,13 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [objc_getClass("__NSArray0") py_swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(py_emptyObjectIndex:)];
-            [objc_getClass("__NSArrayI") py_swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(py_arrObjectIndex:)];
-            [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(py_mutableObjectIndex:)];
-            [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(insertObject:atIndex:) swizzledSelector:@selector(py_mutableInsertObject:atIndex:)];
-            [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(integerValue) swizzledSelector:@selector(py_replace_integerValue)];
+            if (!DEBUG_FLAG) {
+                [objc_getClass("__NSArray0") py_swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(py_emptyObjectIndex:)];
+                [objc_getClass("__NSArrayI") py_swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(py_arrObjectIndex:)];
+                [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(py_mutableObjectIndex:)];
+                [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(insertObject:atIndex:) swizzledSelector:@selector(py_mutableInsertObject:atIndex:)];
+                [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(integerValue) swizzledSelector:@selector(py_replace_integerValue)];
+            }
         }
     });
 }

@@ -8,6 +8,8 @@
 
 #import "NSString+PYException.h"
 #import "NSObject+PYSwizzling.h"
+#import "PYExceptionGlobal.h"
+
 #import <objc/runtime.h>
 
 @implementation NSString (PYException)
@@ -15,22 +17,24 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [objc_getClass("__NSCFConstantString") py_swizzleMethod:@selector(stringByAppendingString:) swizzledSelector:@selector(py_stringByAppendingString:)];
-              [objc_getClass("NSTaggedPointerString") py_swizzleMethod:@selector(stringByAppendingString:) swizzledSelector:@selector(py_UI_stringByAppendingString:)];
+            if (!DEBUG_FLAG) {
+                [objc_getClass("__NSCFConstantString") py_swizzleMethod:@selector(stringByAppendingString:) swizzledSelector:@selector(py_stringByAppendingString:)];
+                [objc_getClass("NSTaggedPointerString") py_swizzleMethod:@selector(stringByAppendingString:) swizzledSelector:@selector(py_UI_stringByAppendingString:)];
+            }
         }
     });
 }
 - (NSString*)py_stringByAppendingString:(NSString *)aString {
     if (!aString) {
         aString = @"";
-        NSLog(@"Error:[__NSCFString stringByAppendingString:]: nil argument");
+        PYLog(@"Error:[__NSCFString stringByAppendingString:]: nil argument");
     }
     return [self py_stringByAppendingString:aString];
 }
 - (NSString*)py_UI_stringByAppendingString:(NSString *)aString {
     if (!aString) {
         aString = @"";
-        NSLog(@"Error:[NSTaggedPointerString stringByAppendingString:]: nil argument");
+        PYLog(@"Error:[NSTaggedPointerString stringByAppendingString:]: nil argument");
     }
     return [self py_UI_stringByAppendingString:aString];
 }
