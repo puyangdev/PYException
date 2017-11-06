@@ -8,6 +8,7 @@
 
 #ifndef PYExceptionHeader_h
 #define PYExceptionHeader_h
+#import "PYExceptionGlobal.h"
 #import "NSObject+PYSwizzling.h"
 #import "NSArray+PYException.h"
 #import "NSString+PYException.h"
