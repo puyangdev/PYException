@@ -16,4 +16,5 @@
 #import "NSMutableString+PYException.h"
 #import "NSMutableAttributedString+PYException.h"
 #import "NSDictionary+PYException.h"
+#import "NSJSONSerialization+PYException.h"
 #endif /* PYExceptionHeader_h */

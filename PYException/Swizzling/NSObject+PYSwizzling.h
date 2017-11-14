@@ -11,4 +11,5 @@
 
 @interface NSObject (PYSwizzling)
 + (void)py_swizzleMethod:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector;
++ (void)py_swizzleClassMethod:(SEL)originalSelector swizzledSelector:(SEL)swizzledSelector;
 @end
