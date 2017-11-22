@@ -20,6 +20,7 @@
                 [objc_getClass("__NSDictionaryI") py_swizzleMethod:@selector(objectForKey:) swizzledSelector:@selector(py_replace_objectForKey:)];
                 [objc_getClass("__NSDictionaryI") py_swizzleMethod:@selector(length) swizzledSelector:@selector(py_replace_length)];
                 [objc_getClass("__NSDictionaryM") py_swizzleMethod:@selector(setObject:forKey:) swizzledSelector:@selector(py_setObject:forKey:)];
+                [objc_getClass("__NSDictionaryM") py_swizzleMethod:@selector(setObject:forKeyedSubscript:) swizzledSelector:@selector(py_setObject:forKeyedSubscript:)];
                 [objc_getClass("__NSPlaceholderDictionary") py_swizzleMethod:@selector(initWithObjects:forKeys:count:)
                                                             swizzledSelector:@selector(py_initWithObjects:forKeys:count:)];
             }
@@ -61,4 +62,13 @@
     return 0;
 }
 
+- (void)py_setObject:(id)obj forKeyedSubscript:(id<NSCopying>)key {
+     @try {
+         [self py_setObject:obj forKeyedSubscript:key];
+    }
+    @catch (NSException *exception) {
+        PYLogError(exception);
+    }
+}
+    
 @end
