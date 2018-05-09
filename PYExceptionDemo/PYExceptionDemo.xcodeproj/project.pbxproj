@@ -360,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3B82TM5D5;
 				INFOPLIST_FILE = PYExceptionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.puyang.exception.PYExceptionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3B82TM5D5;
 				INFOPLIST_FILE = PYExceptionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.puyang.exception.PYExceptionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

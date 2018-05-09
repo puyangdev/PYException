@@ -22,8 +22,8 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
-    NSMutableDictionary *mutDic = [[NSMutableDictionary alloc] init];
-    [mutDic setObject:nil forKey:nil];
+    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"sfa"];
+    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

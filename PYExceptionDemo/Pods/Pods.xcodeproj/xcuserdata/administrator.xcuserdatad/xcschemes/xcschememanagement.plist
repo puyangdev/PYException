@@ -6,47 +6,16 @@
 	<dict>
 		<key>PYException.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>PYTools.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-PYExceptionDemo.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>ReactiveObjC.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>133E25DAB1C9D6AB70248F8EAAD0FC1E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>39F301C0D0A868F25E3777459ECD7477</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5527AAB30BC4FF4F290664B131286CE2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>90D034DC5D2B6A8AE4D7C98F3936A694</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
