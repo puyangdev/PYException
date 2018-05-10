@@ -21,5 +21,6 @@
 
 #import "UILabel+PYException.h"
 #import "UITextField+PYException.h"
+#import "UIButton+PYException.h"
 
 #endif /* PYExceptionHeader_h */

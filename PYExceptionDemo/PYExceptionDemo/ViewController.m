@@ -12,6 +12,7 @@
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *testLabel;
 @property (strong, nonatomic) IBOutlet UITextField *testField;
+@property (strong, nonatomic) IBOutlet UIButton *testBtn;
 
 @end
 
@@ -26,6 +27,8 @@
     [super touchesBegan:touches withEvent:event];
 //    self.testLabel.text = [NSNull null];
 //    self.testField.text = [NSNull null];
+    [self.testBtn setTitle:[NSNull null] forState:UIControlStateNormal];
+     [self.testBtn setTitle:@"ddddd" forState:UIControlStateNormal];
     self.testLabel.text = nil;
     self.testField.text = nil;
     self.testLabel.text = @"jjjjjjjj";
