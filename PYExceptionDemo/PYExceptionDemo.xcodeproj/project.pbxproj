@@ -106,8 +106,6 @@
 				04E7AC921F8333B40024BB2F /* Sources */,
 				04E7AC931F8333B40024BB2F /* Frameworks */,
 				04E7AC941F8333B40024BB2F /* Resources */,
-				985D351911A3A9DF6842B5AB /* [CP] Embed Pods Frameworks */,
-				30631BC757EA02E55F6FD5F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,36 +163,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		30631BC757EA02E55F6FD5F0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYExceptionDemo/Pods-PYExceptionDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		985D351911A3A9DF6842B5AB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYExceptionDemo/Pods-PYExceptionDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D0C9E6F2EE0CF61708F5450F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -10,6 +10,8 @@
 #import <PYException/PYExceptionHeader.h>
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *testLabel;
+@property (strong, nonatomic) IBOutlet UITextField *testField;
 
 @end
 
@@ -22,8 +24,14 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
-    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"sfa"];
-    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
+//    self.testLabel.text = [NSNull null];
+//    self.testField.text = [NSNull null];
+    self.testLabel.text = nil;
+    self.testField.text = nil;
+    self.testLabel.text = @"jjjjjjjj";
+    self.testField.text = @"kkkkkk";
+//    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"sfa"];
+//    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

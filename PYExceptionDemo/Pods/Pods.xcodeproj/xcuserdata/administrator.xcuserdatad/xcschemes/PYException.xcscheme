@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2CCE9E305D48AB4B5E93E07F3DD14941"
+               BlueprintIdentifier = "98BBAC6890A860E6C68A6C9187139CE4"
                BlueprintName = "PYException"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPYException.a">

@@ -17,4 +17,9 @@
 #import "NSMutableAttributedString+PYException.h"
 #import "NSDictionary+PYException.h"
 #import "NSJSONSerialization+PYException.h"
+#import "NSUserDefaults+PYException.h"
+
+#import "UILabel+PYException.h"
+#import "UITextField+PYException.h"
+
 #endif /* PYExceptionHeader_h */
