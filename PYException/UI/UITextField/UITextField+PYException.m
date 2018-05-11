@@ -23,8 +23,8 @@
 }
 
 - (void)py_setText:(NSString *)text {
-    if (!text || [text isKindOfClass:[NSNull class]]) {
-        [self py_setText:@""];
+    if ([text isKindOfClass:[NSNull class]]) {
+        [self py_setText:nil];
     }else {
         [self py_setText:text];
     }

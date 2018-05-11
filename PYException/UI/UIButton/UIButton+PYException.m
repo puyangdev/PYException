@@ -21,8 +21,8 @@
     });
 }
 - (void)py_setTitle:(NSString *)title forState:(UIControlState)state {
-    if(!title || [title isKindOfClass:[NSNull class]]) {
-        [self py_setTitle:@"" forState:state];
+    if([title isKindOfClass:[NSNull class]]) {
+        [self py_setTitle:nil forState:state];
     }else {
         [self py_setTitle:title forState:state];
     }
