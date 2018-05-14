@@ -27,14 +27,14 @@
     [super touchesBegan:touches withEvent:event];
 //    self.testLabel.text = [NSNull null];
 //    self.testField.text = [NSNull null];
-    [self.testBtn setTitle:[NSNull null] forState:UIControlStateNormal];
-     [self.testBtn setTitle:@"ddddd" forState:UIControlStateNormal];
-    self.testLabel.text = nil;
-    self.testField.text = nil;
-    self.testLabel.text = @"jjjjjjjj";
-    self.testField.text = @"kkkkkk";
-//    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"sfa"];
-//    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
+//    [self.testBtn setTitle:[NSNull null] forState:UIControlStateNormal];
+//     [self.testBtn setTitle:@"ddddd" forState:UIControlStateNormal];
+//    self.testLabel.text = nil;
+//    self.testField.text = nil;
+//    self.testLabel.text = @"jjjjjjjj";
+//    self.testField.text = @"kkkkkk";
+    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:[NSNull null]];
+    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

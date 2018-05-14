@@ -25,8 +25,13 @@
 }
 
 - (void)py_setObject:(id)value forKey:(NSString *)defaultName {
-    if (value && defaultName && ![value isKindOfClass:[NSNull class]]) {
-        [self py_setObject:value forKey:defaultName];
+    if ([defaultName isKindOfClass:[NSNull class]]) {
+        return;
+    }
+    if ([value isKindOfClass:[NSNull class]]) {
+        [self py_setObject:nil forKey:defaultName];
+    }else {
+         [self py_setObject:value forKey:defaultName];
     }
 }
 

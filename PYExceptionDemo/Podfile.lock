@@ -1,5 +1,5 @@
 PODS:
-  - PYException (0.1.6)
+  - PYException (0.1.7)
 
 DEPENDENCIES:
   - PYException (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PYException: 43f67b2bfe3e869c9702bf72f05674cc52ecc06f
+  PYException: e8e1162fc1bd32a0d66ec10c5a7cec815cc25ab2
 
 PODFILE CHECKSUM: 9fd3c87309d2ebc25d8aa98c5861e591e4d81bc8
 
