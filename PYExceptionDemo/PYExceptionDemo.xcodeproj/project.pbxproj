@@ -14,6 +14,7 @@
 		04E7ACA61F8333B40024BB2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E7ACA41F8333B40024BB2F /* LaunchScreen.storyboard */; };
 		04E7ACA91F8333B40024BB2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7ACA81F8333B40024BB2F /* main.m */; };
 		9D858A28660512DB9804D3FD /* libPods-PYExceptionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2BD383B3999635B55C61BC /* libPods-PYExceptionDemo.a */; };
+		C36C1A9020EDFE7000ED7D38 /* PYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C36C1A8F20EDFE7000ED7D38 /* PYTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		04E7ACA71F8333B40024BB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E7ACA81F8333B40024BB2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C2BD383B3999635B55C61BC /* libPods-PYExceptionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYExceptionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36C1A8E20EDFE7000ED7D38 /* PYTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTest.h; sourceTree = "<group>"; };
+		C36C1A8F20EDFE7000ED7D38 /* PYTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTest.m; sourceTree = "<group>"; };
 		D27D219A338CCE451FAAED30 /* Pods-PYExceptionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYExceptionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYExceptionDemo/Pods-PYExceptionDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FB5F08A74A8749589A56E562 /* Pods-PYExceptionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYExceptionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYExceptionDemo/Pods-PYExceptionDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +77,8 @@
 				04E7ACA41F8333B40024BB2F /* LaunchScreen.storyboard */,
 				04E7ACA71F8333B40024BB2F /* Info.plist */,
 				04E7ACA81F8333B40024BB2F /* main.m */,
+				C36C1A8E20EDFE7000ED7D38 /* PYTest.h */,
+				C36C1A8F20EDFE7000ED7D38 /* PYTest.m */,
 			);
 			path = PYExceptionDemo;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36C1A9020EDFE7000ED7D38 /* PYTest.m in Sources */,
 				04E7AC9E1F8333B40024BB2F /* ViewController.m in Sources */,
 				04E7ACA91F8333B40024BB2F /* main.m in Sources */,
 				04E7AC9B1F8333B40024BB2F /* AppDelegate.m in Sources */,

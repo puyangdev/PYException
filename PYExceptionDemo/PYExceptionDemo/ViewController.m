@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import <PYException/PYExceptionHeader.h>
+#import "PYTest.h"
+
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *testLabel;
 @property (strong, nonatomic) IBOutlet UITextField *testField;
@@ -32,8 +34,10 @@
 //    self.testField.text = nil;
 //    self.testLabel.text = @"jjjjjjjj";
 //    self.testField.text = @"kkkkkk";
-    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:[NSNull null]];
-    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
+//    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:[NSNull null]];
+//    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
+    PYTest *test = [NSNull null];
+    [test MissMethod];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
