@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <PYException/PYExceptionHeader.h>
 #import "PYTest.h"
+#import "PushViewController.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *testLabel;
@@ -18,6 +19,12 @@
 @end
 
 @implementation ViewController
+- (IBAction)testFirstAction:(UIButton *)sender {
+    PushViewController* push = [[PushViewController alloc] init];
+    [self presentViewController:push animated:YES completion:nil];
+}
+- (IBAction)testSecondAction:(UIButton *)sender {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

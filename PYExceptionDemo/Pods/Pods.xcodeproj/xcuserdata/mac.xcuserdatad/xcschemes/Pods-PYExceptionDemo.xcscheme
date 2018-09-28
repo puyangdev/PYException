@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5527AAB30BC4FF4F290664B131286CE2'
-               BlueprintName = 'Pods-PYExceptionDemo'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-PYExceptionDemo.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F27F53711E30121C820402CD560E2745"
+               BlueprintName = "Pods-PYExceptionDemo"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-PYExceptionDemo.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
