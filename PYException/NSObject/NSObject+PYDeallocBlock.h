@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (PYDeallocBlock)
-
+- (void)py_deallocBlock:(void(^)(void))block;
 @end
