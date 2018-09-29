@@ -42,12 +42,12 @@
     _kvoDemo = [KVOObjectDemo new];
     _kvoObserver = [KVOObserver new];
     
-    [self testTimer];
+//    [self testTimer];
     
     [self testKVO];
-    
-    [self testNotification];
-
+//
+//    [self testNotification];
+//
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self dismissViewControllerAnimated:YES completion:nil];
     });
@@ -82,7 +82,7 @@
     [self addObserver:self forKeyPath:@"test1" options:NSKeyValueObservingOptionNew context:nil];
     [self addObserver:self forKeyPath:@"test1" options:NSKeyValueObservingOptionNew context:nil];
     
-    [self removeObserver:self forKeyPath:@"test0" context:nil];
+//    [self removeObserver:self forKeyPath:@"test0" context:nil];
     
     [self addObserver:self forKeyPath:@"test2" options:NSKeyValueObservingOptionNew context:nil];
     

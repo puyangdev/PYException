@@ -90,8 +90,44 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "PYException/*","PYException/**/*"
+  s.default_subspec = 'All'
+  s.subspec 'All' do |spec|
+      spec.dependency 'PYException/Swizzling'
+      spec.dependency 'PYException/ARC'
+      spec.dependency 'PYException/MRC'
+      spec.dependency 'PYException/PYDeallocBlock'
+      spec.dependency 'PYException/Global'
+  end
+  
+  s.subspec 'Global' do |spec|
+      spec.requires_arc = true
+      spec.source_files  = "PYException/Global/**/*","PYException/PYExceptionHeader.h"
+  end
+  
+  s.subspec 'ARC' do |spec|
+      spec.requires_arc = true
+      spec.source_files  = "PYException/ARC/**/*"
+      spec.dependency 'PYException/Swizzling'
+      spec.dependency 'PYException/PYDeallocBlock'
+  end
+  
+  s.subspec 'Swizzling' do |spec|
+      spec.requires_arc = true
+      spec.source_files  = "PYException/Swizzling/**/*"
+      spec.dependency 'PYException/Global'
+  end
+  
+  s.subspec 'MRC' do |spec|
+      spec.requires_arc = false
+      spec.source_files  = "PYException/MRC/**/*"
+      spec.dependency 'PYException/Swizzling'
+  end
+  
+  s.subspec 'PYDeallocBlock' do |spec|
+      spec.requires_arc = true
+      spec.source_files  = "PYException/PYDeallocBlock/**/*"
+  end
+#  s.source_files  = "PYException/*","PYException/**/*"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 

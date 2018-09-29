@@ -15,9 +15,74 @@
     "git": "https://github.com/puyangdev/PYException.git",
     "tag": "0.1.11"
   },
-  "source_files": [
-    "PYException/*",
-    "PYException/**/*"
-  ],
-  "frameworks": "Foundation"
+  "default_subspecs": "All",
+  "frameworks": "Foundation",
+  "subspecs": [
+    {
+      "name": "All",
+      "dependencies": {
+        "PYException/Swizzling": [
+
+        ],
+        "PYException/ARC": [
+
+        ],
+        "PYException/MRC": [
+
+        ],
+        "PYException/PYDeallocBlock": [
+
+        ],
+        "PYException/Global": [
+
+        ]
+      }
+    },
+    {
+      "name": "Global",
+      "requires_arc": true,
+      "source_files": [
+        "PYException/Global/**/*",
+        "PYException/PYExceptionHeader.h"
+      ]
+    },
+    {
+      "name": "ARC",
+      "requires_arc": true,
+      "source_files": "PYException/ARC/**/*",
+      "dependencies": {
+        "PYException/Swizzling": [
+
+        ],
+        "PYException/PYDeallocBlock": [
+
+        ]
+      }
+    },
+    {
+      "name": "Swizzling",
+      "requires_arc": true,
+      "source_files": "PYException/Swizzling/**/*",
+      "dependencies": {
+        "PYException/Global": [
+
+        ]
+      }
+    },
+    {
+      "name": "MRC",
+      "requires_arc": false,
+      "source_files": "PYException/MRC/**/*",
+      "dependencies": {
+        "PYException/Swizzling": [
+
+        ]
+      }
+    },
+    {
+      "name": "PYDeallocBlock",
+      "requires_arc": true,
+      "source_files": "PYException/PYDeallocBlock/**/*"
+    }
+  ]
 }
