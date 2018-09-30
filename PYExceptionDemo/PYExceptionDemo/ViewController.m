@@ -24,6 +24,8 @@
     [self presentViewController:push animated:YES completion:nil];
 }
 - (IBAction)testSecondAction:(UIButton *)sender {
+    PYTest *test = [[PYTest alloc] init];
+    [test MissMethod];
 }
 
 - (void)viewDidLoad {

@@ -45,7 +45,7 @@ void unrecognizedSelectorZombie(PYZombieSelectorHandle* self, SEL _cmd){
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [[self class] py_swizzleClassMethod:@selector(dealloc) swizzledSelector:@selector(py_dealloc)];
+//                [[self class] py_swizzleMethod:@selector(dealloc) swizzledSelector:@selector(py_dealloc)];
             }
         }
     });

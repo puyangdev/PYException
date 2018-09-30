@@ -9,7 +9,7 @@
 #define PYExceptionGlobal_h
 
 #ifdef DEBUG
-#define DEBUG_FLAG YES
+#define DEBUG_FLAG NO
 #else
 #define DEBUG_FLAG NO
 #endif
