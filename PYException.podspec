@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   end
   s.subspec 'Global' do |spec|
       spec.requires_arc = true
-      spec.source_files  = "PYException/Global/**/*","PYException/PYExceptionHeader.h"
+      spec.source_files  = "PYException/Global/**/*"
   end
   
   s.subspec 'ARC' do |spec|
