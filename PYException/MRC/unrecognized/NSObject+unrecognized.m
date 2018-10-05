@@ -40,9 +40,7 @@ void unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
         }
     });
 }
-//+ (void)jj_swizzleUnrecognizedSelector{
-//    swizzleInstanceMethod([self class], @selector(forwardingTargetForSelector:), @selector(forwardingTargetForSelectorSwizzled:));
-//}
+    
 - (id)py_forwardingTargetForSelectorSwizzled:(SEL)selector{
     NSMethodSignature* sign = [self methodSignatureForSelector:selector];
     if (!sign) {
