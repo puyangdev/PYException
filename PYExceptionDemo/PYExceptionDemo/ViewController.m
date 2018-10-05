@@ -24,8 +24,8 @@
     [self presentViewController:push animated:YES completion:nil];
 }
 - (IBAction)testSecondAction:(UIButton *)sender {
-    PYTest *test = [[PYTest alloc] init];
-    [test MissMethod];
+//    PYTest *test = [[PYTest alloc] init];
+//    [test MissMethod];
 }
 
 - (void)viewDidLoad {
@@ -45,8 +45,11 @@
 //    self.testField.text = @"kkkkkk";
 //    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:[NSNull null]];
 //    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
-    PYTest *test = [NSNull null];
-    [test MissMethod];
+//    PYTest *test = [NSNull null];
+//    [test MissMethod];
+    PYTest *test = [[PYTest alloc] init];
+    [test missMethodss];
+    [test performSelector:@selector(missMet:) withObject:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

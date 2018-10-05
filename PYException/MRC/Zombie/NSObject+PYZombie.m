@@ -50,25 +50,25 @@ void unrecognizedSelectorZombie(PYZombieSelectorHandle* self, SEL _cmd){
         }
     });
 }
-- (void)py_dealloc{
-    Class currentClass = self.class;
-    
-//    //Check black list
-//    if (![[[JJExceptionProxy shareExceptionProxy] blackClassesSet] containsObject:currentClass]) {
-//        [self hookDealloc];
-//        return;
-//    }
-    
-    //Check the array max size
-    //TODO:Real remove less than MAX_ARRAY_SIZE
-//    if ([JJExceptionProxy shareExceptionProxy].currentClassSize > MAX_ARRAY_SIZE) {
-//        id object = [[JJExceptionProxy shareExceptionProxy] objectFromCurrentClassesSet];
-//        [[JJExceptionProxy shareExceptionProxy] removeCurrentZombieClass:object_getClass(object)];
-//        object?free(object):nil;
-//    }
+//- (void)py_dealloc{
+//    Class currentClass = self.class;
 //
-    objc_destructInstance(self);
-    object_setClass(self, [PYZombieSub class]);
-//    [[JJExceptionProxy shareExceptionProxy] addCurrentZombieClass:currentClass];
-}
+////    //Check black list
+////    if (![[[JJExceptionProxy shareExceptionProxy] blackClassesSet] containsObject:currentClass]) {
+////        [self hookDealloc];
+////        return;
+////    }
+//
+//    //Check the array max size
+//    //TODO:Real remove less than MAX_ARRAY_SIZE
+////    if ([JJExceptionProxy shareExceptionProxy].currentClassSize > MAX_ARRAY_SIZE) {
+////        id object = [[JJExceptionProxy shareExceptionProxy] objectFromCurrentClassesSet];
+////        [[JJExceptionProxy shareExceptionProxy] removeCurrentZombieClass:object_getClass(object)];
+////        object?free(object):nil;
+////    }
+////
+//    objc_destructInstance(self);
+//    object_setClass(self, [PYZombieSub class]);
+////    [[JJExceptionProxy shareExceptionProxy] addCurrentZombieClass:currentClass];
+//}
 @end

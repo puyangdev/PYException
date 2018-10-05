@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface PYTest : NSObject
--(void)MissMethod;
+-(void)missMethodss;
 @end
