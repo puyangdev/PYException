@@ -1,6 +1,6 @@
 {
   "name": "PYException",
-  "version": "0.1.11",
+  "version": "0.1.19",
   "summary": "PYException...Help developers reduce crash",
   "description": "PYException,Help developers reduce crash,example arr dic..and so on",
   "homepage": "https://github.com/puyangdev/PYException",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/puyangdev/PYException.git",
-    "tag": "0.1.11"
+    "tag": "0.1.19"
   },
   "default_subspecs": "All",
   "frameworks": "Foundation",
@@ -35,8 +35,16 @@
         ],
         "PYException/Global": [
 
+        ],
+        "PYException/Header": [
+
         ]
       }
+    },
+    {
+      "name": "Header",
+      "requires_arc": true,
+      "source_files": "PYException/PYExceptionHeader.h"
     },
     {
       "name": "Global",
@@ -75,6 +83,9 @@
       "source_files": "PYException/MRC/**/*",
       "dependencies": {
         "PYException/Swizzling": [
+
+        ],
+        "PYException/PYDeallocBlock": [
 
         ]
       }
