@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PYException"
-  s.version      = "0.1.15"
+  s.version      = "0.1.14"
   s.summary      = "PYException...Help developers reduce crash"
 
   # This description is used to generate tags and improve search results.
@@ -121,7 +121,6 @@ Pod::Spec.new do |s|
       spec.requires_arc = false
       spec.source_files  = "PYException/MRC/**/*"
       spec.dependency 'PYException/Swizzling'
-      spec.dependency 'PYException/PYDeallocBlock'
   end
   
   s.subspec 'PYDeallocBlock' do |spec|
