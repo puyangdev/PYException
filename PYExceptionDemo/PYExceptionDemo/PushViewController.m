@@ -92,7 +92,7 @@
 #pragma mark - Dealloc
 
 - (void)dealloc{
-    NSLog(@"PushViewController%s",__FILE__);
+    NSLog(@"%s",__func__);
 }
 
 @end
