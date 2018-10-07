@@ -13,8 +13,6 @@
 #import "PYTestViewController.h"
 #import "PYZombieMonitor.h"
 
-//#import "LXDZombieSniffer.h"
-
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *testLabel;
 @property (strong, nonatomic) IBOutlet UITextField *testField;
@@ -37,7 +35,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [PYZombieMonitor install];
-//    [LXDZombieSniffer installSniffer];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
