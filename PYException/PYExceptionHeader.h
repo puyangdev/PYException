@@ -28,5 +28,6 @@
 #import "UIButton+PYException.h"
 
 #import "NSObject+PYKVOException.h"
-//#import "NSObject+PYZombie.h"
+#import "NSObject+PYZombie.h"
+
 #endif /* PYExceptionHeader_h */

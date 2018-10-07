@@ -11,6 +11,8 @@
 #import "PYTest.h"
 #import "PushViewController.h"
 #import "PYTestViewController.h"
+#import "PYZombieMonitor.h"
+
 //#import "LXDZombieSniffer.h"
 
 @interface ViewController ()
@@ -34,6 +36,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [PYZombieMonitor install];
 //    [LXDZombieSniffer installSniffer];
     // Do any additional setup after loading the view, typically from a nib.
 }
