@@ -98,6 +98,7 @@ Pod::Spec.new do |s|
       spec.dependency 'PYException/PYDeallocBlock'
       spec.dependency 'PYException/Global'
       spec.dependency 'PYException/Header'
+#      spec.dependency 'PYException/Global'
   end
   s.subspec 'Header' do |spec|
       spec.requires_arc = true

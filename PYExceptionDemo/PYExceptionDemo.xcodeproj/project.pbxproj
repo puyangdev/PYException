@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		04517185215E772C00D95085 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04517184215E772C00D95085 /* PushViewController.m */; };
 		04517188215E773800D95085 /* KVOObjectDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04517186215E773800D95085 /* KVOObjectDemo.m */; };
+		046489722168CF8300715F11 /* PYTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046489712168CF8300715F11 /* PYTestView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		046489752168CFB600715F11 /* PYTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046489742168CFB500715F11 /* PYTestViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		04E7AC9B1F8333B40024BB2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7AC9A1F8333B40024BB2F /* AppDelegate.m */; };
 		04E7AC9E1F8333B40024BB2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E7AC9D1F8333B40024BB2F /* ViewController.m */; };
 		04E7ACA11F8333B40024BB2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E7AC9F1F8333B40024BB2F /* Main.storyboard */; };
@@ -24,6 +26,10 @@
 		04517184215E772C00D95085 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 		04517186215E773800D95085 /* KVOObjectDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOObjectDemo.m; sourceTree = "<group>"; };
 		04517187215E773800D95085 /* KVOObjectDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOObjectDemo.h; sourceTree = "<group>"; };
+		046489702168CF8300715F11 /* PYTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTestView.h; sourceTree = "<group>"; };
+		046489712168CF8300715F11 /* PYTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTestView.m; sourceTree = "<group>"; };
+		046489732168CFB500715F11 /* PYTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTestViewController.h; sourceTree = "<group>"; };
+		046489742168CFB500715F11 /* PYTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTestViewController.m; sourceTree = "<group>"; };
 		04E7AC961F8333B40024BB2F /* PYExceptionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYExceptionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E7AC991F8333B40024BB2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04E7AC9A1F8333B40024BB2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +84,10 @@
 				04E7AC9A1F8333B40024BB2F /* AppDelegate.m */,
 				04E7AC9C1F8333B40024BB2F /* ViewController.h */,
 				04E7AC9D1F8333B40024BB2F /* ViewController.m */,
+				046489732168CFB500715F11 /* PYTestViewController.h */,
+				046489742168CFB500715F11 /* PYTestViewController.m */,
+				046489702168CF8300715F11 /* PYTestView.h */,
+				046489712168CF8300715F11 /* PYTestView.m */,
 				04517187215E773800D95085 /* KVOObjectDemo.h */,
 				04517186215E773800D95085 /* KVOObjectDemo.m */,
 				04517183215E772C00D95085 /* PushViewController.h */,
@@ -204,9 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C36C1A9020EDFE7000ED7D38 /* PYTest.m in Sources */,
+				046489752168CFB600715F11 /* PYTestViewController.m in Sources */,
 				04517185215E772C00D95085 /* PushViewController.m in Sources */,
 				04E7AC9E1F8333B40024BB2F /* ViewController.m in Sources */,
 				04E7ACA91F8333B40024BB2F /* main.m in Sources */,
+				046489722168CF8300715F11 /* PYTestView.m in Sources */,
 				04517188215E773800D95085 /* KVOObjectDemo.m in Sources */,
 				04E7AC9B1F8333B40024BB2F /* AppDelegate.m in Sources */,
 			);

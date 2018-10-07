@@ -16,8 +16,7 @@
 @implementation PYUnrecognizedSelectorHandle
 void unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
     NSString *message = [NSString stringWithFormat:@"Unrecognized selector class:%@ and selector:%@",[self.fromObject class],NSStringFromSelector(_cmd)];
-    PYLog(@"%@",message);
-//    handleCrashException(JJExceptionGuardUnrecognizedSelector,message);
+    NSLog(@"%@",message);
 }
 
 - (void)dealloc{
@@ -40,7 +39,7 @@ void unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
         }
     });
 }
-    
+
 - (id)py_forwardingTargetForSelectorSwizzled:(SEL)selector{
     NSMethodSignature* sign = [self methodSignatureForSelector:selector];
     if (!sign) {
@@ -51,5 +50,4 @@ void unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
     }
     return [self py_forwardingTargetForSelectorSwizzled:selector];
 }
-
 @end

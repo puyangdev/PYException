@@ -1,10 +1,3 @@
-//
-//  PushViewController.m
-//  JJException
-//
-//  Created by Jezz on 2018/9/2.
-//  Copyright © 2018年 Jezz. All rights reserved.
-//
 
 #import "PushViewController.h"
 #import "KVOObjectDemo.h"
@@ -82,7 +75,7 @@
     [self addObserver:self forKeyPath:@"test1" options:NSKeyValueObservingOptionNew context:nil];
     [self addObserver:self forKeyPath:@"test1" options:NSKeyValueObservingOptionNew context:nil];
     
-//    [self removeObserver:self forKeyPath:@"test0" context:nil];
+    [self removeObserver:self forKeyPath:@"test0" context:nil];
     
     [self addObserver:self forKeyPath:@"test2" options:NSKeyValueObservingOptionNew context:nil];
     

@@ -10,6 +10,8 @@
 #import <PYException/PYExceptionHeader.h>
 #import "PYTest.h"
 #import "PushViewController.h"
+#import "PYTestViewController.h"
+#import "LXDZombieSniffer.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *testLabel;
@@ -24,12 +26,15 @@
     [self presentViewController:push animated:YES completion:nil];
 }
 - (IBAction)testSecondAction:(UIButton *)sender {
+    PYTestViewController *testVC = [[PYTestViewController alloc] init];
+    [self presentViewController:testVC animated:YES completion:nil];
 //    PYTest *test = [[PYTest alloc] init];
 //    [test MissMethod];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    [LXDZombieSniffer installSniffer];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
