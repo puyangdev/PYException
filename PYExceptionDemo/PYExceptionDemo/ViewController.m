@@ -11,7 +11,7 @@
 #import "PYTest.h"
 #import "PushViewController.h"
 #import "PYTestViewController.h"
-#import "LXDZombieSniffer.h"
+//#import "LXDZombieSniffer.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *testLabel;
