@@ -92,7 +92,7 @@ static inline IMP __py_swizzleMethodWithBlock(Method method, void *block) {
                 object_setClass(obj, [PYZombieProxy class]);
                 ((PYZombieProxy *)obj).originClass = currentClass;
                 
-                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(15 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                     __unsafe_unretained id deallocObj = nil;
                     [objVal getValue: &deallocObj];
                     object_setClass(deallocObj, currentClass);

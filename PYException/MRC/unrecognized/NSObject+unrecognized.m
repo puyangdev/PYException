@@ -14,11 +14,19 @@
 @end
 
 @implementation PYUnrecognizedSelectorHandle
-void unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
+id unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
     NSString *message = [NSString stringWithFormat:@"Unrecognized selector class:%@ and selector:%@",[self.fromObject class],NSStringFromSelector(_cmd)];
     NSLog(@"%@",message);
+    return 0;
 }
-
++ (instancetype) sharedInstance{
+    static PYUnrecognizedSelectorHandle *unrecognizedSelectorHandle;
+    static dispatch_once_t  once_token;
+    dispatch_once(&once_token, ^{
+        unrecognizedSelectorHandle = [[PYUnrecognizedSelectorHandle alloc] init];
+    });
+    return unrecognizedSelectorHandle;
+}
 - (void)dealloc{
     self.fromObject = nil;
     [super dealloc];
@@ -43,7 +51,7 @@ void unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
 - (id)py_forwardingTargetForSelectorSwizzled:(SEL)selector{
     NSMethodSignature* sign = [self methodSignatureForSelector:selector];
     if (!sign) {
-        id stub = [[PYUnrecognizedSelectorHandle new] autorelease];
+        id stub = [PYUnrecognizedSelectorHandle sharedInstance];
         [stub setFromObject:self];
         class_addMethod([stub class], selector, (IMP)unrecognizedSelector, "v@:");
         return stub;
