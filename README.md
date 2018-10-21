@@ -1,6 +1,4 @@
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/PYException.svg)](https://img.shields.io/cocoapods/v/PYException.svg)
-[![Build Status](https://travis-ci.org/jezzmemo/PYException.svg?branch=master)](https://travis-ci.org/jezzmemo/PYException.svg?branch=master)
-[![codecov](https://codecov.io/gh/jezzmemo/PYException/branch/master/graph/badge.svg)](https://codecov.io/gh/jezzmemo/PYException)
 [![Platform](https://img.shields.io/cocoapods/p/PYException.svg?style=flat)](http://cocoadocs.org/docsets/PYException)
 ![License MIT](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)
 
