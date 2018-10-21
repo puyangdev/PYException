@@ -12,13 +12,28 @@
 
 - [x] KVO
 
-- [x] Zombie
+- [x] Zombie 监控器
 
 - [x] NSTimer
 
 - [x] NSNotification
 
-- [x] NSString,NSMutableString,NSAttributedString,NSMutableAttributedString
+- [x] NSArray
+- [x] NSDictionary
+
+- [x] NSNull
+- [x] NSString
+- [x] NSMutableString
+- [x] NSMutableAttributedString
+
+- [x] NSUserDefaults
+
+- [x] NSJSONSerialization
+
+- [x] UIButton
+- [x] UILabel
+- [x] UITextField
+- [x] WKWebView
 
 ## 如何安装
 
