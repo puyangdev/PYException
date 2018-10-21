@@ -1,4 +1,32 @@
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/PYException.svg)](https://img.shields.io/cocoapods/v/PYException.svg)
+[![Build Status](https://travis-ci.org/jezzmemo/PYException.svg?branch=master)](https://travis-ci.org/jezzmemo/PYException.svg?branch=master)
+[![codecov](https://codecov.io/gh/jezzmemo/PYException/branch/master/graph/badge.svg)](https://codecov.io/gh/jezzmemo/PYException)
+[![Platform](https://img.shields.io/cocoapods/p/PYException.svg?style=flat)](http://cocoadocs.org/docsets/PYException)
+![License MIT](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)
+
 # PYException
-在 Podfile  中加入以下代码 即可使用该框架
-pod 'PYException',
+
+一般常见的问题不会导致闪退，增强App的健壮性
+
+- [x] Unrecognized Selector Sent to Instance
+
+- [x] NSArray,NSMutableArray,NSDictonary,NSMutableDictionary
+
+- [x] KVO
+
+- [x] Zombie Pointer
+
+- [x] NSTimer
+
+- [x] NSNotification
+
+- [x] NSString,NSMutableString,NSAttributedString,NSMutableAttributedString
+
+## 如何安装
+
+__Podfile__
+
+```
+pod 'PYException'
+```
 
