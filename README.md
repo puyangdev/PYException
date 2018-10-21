@@ -12,7 +12,7 @@
 
 - [x] KVO
 
-- [x] Zombie Pointer
+- [x] Zombie
 
 - [x] NSTimer
 
