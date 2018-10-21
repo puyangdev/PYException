@@ -7,34 +7,22 @@
 一般常见的问题不会导致闪退，增强App的健壮性
 
 - [x] Unrecognized Selector Sent to Instance
-
-- [x] NSArray,NSMutableArray,NSDictonary,NSMutableDictionary
-
+- [x] NSArray,NSMutableArray
+- [x] NSDictionary,NSMutableDictionary
 - [x] KVO
-
-- [x] Zombie 监控器
-
 - [x] NSTimer
-
 - [x] NSNotification
-
-- [x] NSArray
-- [x] NSDictionary
-
 - [x] NSNull
 - [x] NSString
 - [x] NSMutableString
 - [x] NSMutableAttributedString
-
 - [x] NSUserDefaults
-
 - [x] NSJSONSerialization
-
 - [x] UIButton
 - [x] UILabel
 - [x] UITextField
 - [x] WKWebView
-
+- [x] Zombie 监控器
 ## 如何安装
 
 __Podfile__
