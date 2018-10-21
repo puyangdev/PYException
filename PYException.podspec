@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PYException"
-  s.version      = "0.1.27"
+  s.version      = "0.1.28"
   s.summary      = "PYException...Help developers reduce crash"
 
   # This description is used to generate tags and improve search results.
