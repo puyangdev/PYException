@@ -42,7 +42,7 @@
 
 - (NSString *)py_description { return @"0(NSNull)"; }
 
-- (NSArray *)py_componentsSeparatedByString:(NSString *)separator { return @[]; }
+- (NSArray *)py_componentsSeparatedByString:(NSString *)separator { return nil; }
 
 - (id)py_objectForKey:(id)key { return nil; }
 
