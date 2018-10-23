@@ -35,6 +35,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [PYZombieMonitor install];
+  
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -52,9 +54,13 @@
 //    [[NSUserDefaults standardUserDefaults] setObject:[NSNull null] forKey:@"sfa"];
 //    PYTest *test = [NSNull null];
 //    [test MissMethod];
-    PYTest *test = [[PYTest alloc] init];
-    [test missMethodss];
-    [test performSelector:@selector(missMet:) withObject:nil];
+//    PYTest *test = [[PYTest alloc] init];
+//    [test missMethodss];
+//    [test performSelector:@selector(missMet:) withObject:nil];
+//    [[NSNull null] performSelector:@selector(yupuyang:) withObject:nil];
+//    [NSNull performSelector:@selector(yupuyang:) withObject:nil];
+    NSMutableArray *mut = [[NSMutableArray alloc] initWithObjects:@"kkk",@"bbb", nil];
+    NSLog(@"%@",[mut objectAtIndexedSubscript:10]);
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
