@@ -10,7 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PYExceptionHandle : NSObject
-
++ (instancetype)sharedExceptionHandle;
+@property (nonatomic, strong) NSArray <NSString*>*zombieClassArr;
+@property (nonatomic, strong) NSMutableArray *zombieObjList;
 @end
 
 NS_ASSUME_NONNULL_END

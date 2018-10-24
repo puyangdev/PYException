@@ -127,6 +127,7 @@ Pod::Spec.new do |s|
       spec.source_files  = "PYException/MRC/**/*"
       spec.dependency 'PYException/Swizzling'
       spec.dependency 'PYException/PYDeallocBlock'
+      spec.dependency 'PYException/Global'
   end
   
   s.subspec 'PYDeallocBlock' do |spec|
