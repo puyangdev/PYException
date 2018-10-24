@@ -9,6 +9,7 @@
 #import "PYTestViewController.h"
 #import "PYTestView.h"
 #import <objc/runtime.h>
+#import <PYException/PYExceptionHandle.h>
 
 @interface PYTestViewController ()
 
@@ -18,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     PYTestView *testView = [[PYTestView alloc] init];
     [testView retain];
 //    NSLog(@"===== %lu",(unsigned long)testView.retainCount);

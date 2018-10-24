@@ -1,23 +1,24 @@
 PODS:
-  - PYException (0.1.31):
-    - PYException/All (= 0.1.31)
-  - PYException/All (0.1.31):
+  - PYException (0.1.34):
+    - PYException/All (= 0.1.34)
+  - PYException/All (0.1.34):
     - PYException/ARC
     - PYException/Global
     - PYException/Header
     - PYException/MRC
     - PYException/PYDeallocBlock
     - PYException/Swizzling
-  - PYException/ARC (0.1.31):
+  - PYException/ARC (0.1.34):
     - PYException/PYDeallocBlock
     - PYException/Swizzling
-  - PYException/Global (0.1.31)
-  - PYException/Header (0.1.31)
-  - PYException/MRC (0.1.31):
+  - PYException/Global (0.1.34)
+  - PYException/Header (0.1.34)
+  - PYException/MRC (0.1.34):
+    - PYException/Global
     - PYException/PYDeallocBlock
     - PYException/Swizzling
-  - PYException/PYDeallocBlock (0.1.31)
-  - PYException/Swizzling (0.1.31):
+  - PYException/PYDeallocBlock (0.1.34)
+  - PYException/Swizzling (0.1.34):
     - PYException/Global
 
 DEPENDENCIES:
@@ -28,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PYException: e10f19deae2d5261524c828ef9a2253ebbc3e8aa
+  PYException: 82ff7184664a9c07ba2e82c87a72555c561d3f9c
 
 PODFILE CHECKSUM: cebc821281f28afc868d535a4223c6a46164b0ed
 

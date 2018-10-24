@@ -11,7 +11,9 @@
 #import "PYTest.h"
 #import "PushViewController.h"
 #import "PYTestViewController.h"
-#import "PYZombieMonitor.h"
+//#import "PYZombieMonitor.h"
+#import "PYExceptionHandle.h"
+
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *testLabel;
@@ -34,9 +36,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [PYZombieMonitor install];
+    [PYExceptionHandle sharedExceptionHandle].zombieClassArr = @[@"PYTestView"];
+//    [PYZombieMonitor install];
   
-
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -59,8 +61,8 @@
 //    [test performSelector:@selector(missMet:) withObject:nil];
 //    [[NSNull null] performSelector:@selector(yupuyang:) withObject:nil];
 //    [NSNull performSelector:@selector(yupuyang:) withObject:nil];
-    NSMutableArray *mut = [[NSMutableArray alloc] initWithObjects:@"kkk",@"bbb", nil];
-    NSLog(@"%@",[mut objectAtIndexedSubscript:10]);
+//    NSMutableArray *mut = [[NSMutableArray alloc] initWithObjects:@"kkk",@"bbb", nil];
+//    NSLog(@"%@",[mut objectAtIndexedSubscript:10]);
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
