@@ -30,4 +30,7 @@ __Podfile__
 ```
 pod 'PYException'
 ```
-
+zombie 问题规避
+备注 一些高频的类尽量不加 如 UIButton ，UILabel
+示例
+[PYExceptionHandle sharedExceptionHandle].zombieClassArr = @[@"PYTestView"];
