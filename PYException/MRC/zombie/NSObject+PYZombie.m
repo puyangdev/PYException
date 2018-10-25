@@ -14,16 +14,16 @@
 #define PY_ZOMBIE_RELEASE (PY_ZOMBIE_MAX/2)
 
 @implementation NSObject (PYZombie)
-+ (void)load {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        @autoreleasepool {
-            if (!DEBUG_FLAG) {
-                [[self class] py_swizzleMethod:@selector(dealloc) swizzledSelector:@selector(py_dealloc)];
-            }
-        }
-    });
-}
+//+ (void)load {
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        @autoreleasepool {
+//            if (!DEBUG_FLAG) {
+//                [[self class] py_swizzleMethod:@selector(dealloc) swizzledSelector:@selector(py_dealloc)];
+//            }
+//        }
+//    });
+//}
 
 - (void)py_dealloc {
     if ([[PYExceptionHandle sharedExceptionHandle].zombieClassArr containsObject:NSStringFromClass([self class])]) {
