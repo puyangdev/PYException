@@ -7,59 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02720478E9FDA1C3D0C0181E87AA2556 /* UIButton+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 2599C4057C8EF70EC6DE4BA1692AD17F /* UIButton+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		02B2C9FAEF32A78B8420A4F4DA53AB28 /* NSObject+PYDeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 26B42F6949085C77681F6FF12AAB57C9 /* NSObject+PYDeallocBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0D4A493762C44210E66210749086213E /* NSNull+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B263DAAEFDB73C57FD207CDA95B3F13 /* NSNull+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		121755AD997D70750190B2481F164FC1 /* NSObject+unrecognized.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79624FADD2DE410598B1787FC742B8 /* NSObject+unrecognized.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		13711690364C1A2651991F501701968C /* NSTimer+PYClean.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9E1965479E678065997AEF6D3BFDCB /* NSTimer+PYClean.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		180EB44511A16A4FB4CCB8342319BA2C /* NSMutableString+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EE872F90606F35B266E80F1A58AB88 /* NSMutableString+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1D70C71495BFE52D40F8F09AD1FA4412 /* PYZombieMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = FA312A3F7875188229F889AE1D235D49 /* PYZombieMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E1DCF3F00168D76C1C117CD16FDCBE4 /* NSMutableAttributedString+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDA05B7DD7F084965066FA060BC05EE /* NSMutableAttributedString+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1EDB3DCC1C4FDE2D818A9CE04BA234A6 /* UIButton+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 721AACAE1D38657B306C5001D277E7B3 /* UIButton+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		28203639F7F26D9215540F2015A21081 /* UILabel+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 373EC672F0AC47D0C899A5145438699F /* UILabel+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2AD7FCB3E7AF96D8E55BB33B453EC270 /* NSTimer+PYClean.m in Sources */ = {isa = PBXBuildFile; fileRef = 072165BDFBBC7E99910DBB59541A13B4 /* NSTimer+PYClean.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2B27C2DFCDE2EC4C5215C30BB5B66A28 /* NSNotificationCenter+PYClear.h in Headers */ = {isa = PBXBuildFile; fileRef = 2834CD20B8CA3D1AA998C8BE09310B2A /* NSNotificationCenter+PYClear.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D311E73FA97377ACFE7EAA7B40F7F8F /* PYExceptionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 54CEC359C749884068E30A4182BED487 /* PYExceptionHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		396F8ED6A11E139F45A59BBCDC0F19AB /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 81B0166680D2E65B7DED7BA577FEEA54 /* fishhook.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3A00AA500F96E93848BCA81538C27D2A /* PYZombieProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C91858BCA4E74D2F648C8B64427E92 /* PYZombieProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3C2296BD22B5BEA4ABA47EC8F4575E54 /* NSUserDefaults+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = C43AFEBF798FC8FAE28BC940D525A57B /* NSUserDefaults+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3C5DD24B1EBCF763F32A8D026DE46151 /* NSObject+unrecognized.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C276C32DF52F7ACFB91382617C01E59 /* NSObject+unrecognized.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3D0B840F3AF274F3334A2A068002270E /* NSObject+PYSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEE6AD53ED04AFF597CE71B025B1D5D /* NSObject+PYSwizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4A9EF73111C9D1084939F5CEB91E0C68 /* NSJSONSerialization+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = F7839686BBB2BDE8CD3EEB616798C9BF /* NSJSONSerialization+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		533DE971E3D833C0E95CB623CB7ECB3E /* NSArray+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FC6005EC101501C586D8DF3DED5968 /* NSArray+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		57280F8A297292ADDF7A063094D96724 /* UITextField+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB08EBEE1E2D4BF77952F085F4E0BC9 /* UITextField+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E9F69893DCF464C55DE667229612DFE /* PYZombieProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AADD01DE45792EB389FE3C94A4E1857A /* PYZombieProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14E057A0C617AA40624019F9E7D09CD6 /* NSJSONSerialization+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B141E0A74709F9B2B3DBA190B36FB /* NSJSONSerialization+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		153B4D6E7A0064BC6E985AAAC8EAA497 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 11151789922F47F35AF2B0A79F9130AB /* fishhook.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17EF3D098BE4754231D64DC17C50005E /* NSArray+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C3E953E1700CC64F94CA59DA5D0A79A /* NSArray+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		18A9E66911FADB7CE4BCF137211DB2F3 /* NSObject+PYKVOException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F95711C1BEBA24A1FB2FB8E5D8ED2AE /* NSObject+PYKVOException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1CCBCFF2E2AC6C5435ED4D2357ED084D /* PYZombieProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E9837129A7FCEE8F5D5EE209BBFA0 /* PYZombieProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C35607F2E5611916C521D681150B447 /* NSMutableSet+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6309817B967AE98708B70BA0B620E9 /* NSMutableSet+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F37FDCC52AFA5E8C2AA262513827E24 /* NSMutableAttributedString+PYNException.m in Sources */ = {isa = PBXBuildFile; fileRef = F3183A3947E440BEA098862F4652E0E1 /* NSMutableAttributedString+PYNException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F54C8A63DC18DAD24E4975A6604CB7D /* NSMutableString+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A00CFC1F088C601C75C503F01ED2B5 /* NSMutableString+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		365559873437F3A8153758970208F73C /* UITextField+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D6BBE131E58853CB81B8C7C80DCECF /* UITextField+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3964BEE5DF2CD5C2F731CFB2309772B2 /* NSMutableString+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 7941B7CF63C07B201ACFAFD772020699 /* NSMutableString+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		449EDAFECAC08851E46750732B1D9C6B /* NSUserDefaults+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = B317F687E51B8A5312B0F96E7C1B5DC8 /* NSUserDefaults+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44F247AB6FFF6F1A8F64FACE5A57DB38 /* NSTimer+PYClean.m in Sources */ = {isa = PBXBuildFile; fileRef = C55DAEBF5FFAECB6839756292D733A09 /* NSTimer+PYClean.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45D13723F0B429045B26C5F7D5CDA65B /* NSDictionary+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 538D1AF3F5502CB5DA7934C93036C0C8 /* NSDictionary+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D3E72DC8B9A6B977251701271649258 /* PYExceptionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E759F837F3694DDA15BB05895A45AF0A /* PYExceptionHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5606C72AD6FBBB5B51FF1E98DD45856C /* NSDictionary+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 38512533A3F8E75468904DBFB2C30E77 /* NSDictionary+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		567C2E54E3913454A608AB446F697343 /* WKWebView+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AF5F6C89A4ACC15D985DBD1755B028 /* WKWebView+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59A0170415C34AE379C64259041E2BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5D4AAFFA7F1F4AC8263B2E3952A1E24E /* PYExceptionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8CE463870A06CCD5417BF4879052B /* PYExceptionHandle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6A3117D003A2406A2B3F98FE555952C5 /* NSObject+PYKVOException.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFA230D8BA2AC5241E7C5D79E4A8F37 /* NSObject+PYKVOException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B5E428A75EEA8095F59C35960FCC5D7 /* NSObject+PYSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 697410F8D913426DDE2AD2FF8D63DAF4 /* NSObject+PYSwizzling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6C9F5527ED62CAF1B9EB9D4BE855649D /* NSObject+PYZombie.h in Headers */ = {isa = PBXBuildFile; fileRef = A431DA20590ECE9F8AF7043F619E29D2 /* NSObject+PYZombie.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		76452462A65B61872D1F27A459D45A17 /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E642A3327C40FF8C4C237CAD86C3EF0 /* queue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		812AA9172D3B67614339FD0A8C36005D /* NSObject+PYKVOException.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D85ACF9AD603E6CFCC7757544515C7 /* NSObject+PYKVOException.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8D09043AF5C68176EA66204B20BF2F21 /* UILabel+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 844AA4DBAB22C9746884C894CDC43727 /* UILabel+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		993ACC6429EDB101CB2DA50E61B197F8 /* PYExceptionGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 588A40D74266C2BEB45ADA06971F27C8 /* PYExceptionGlobal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C1EC0F3A6DBF07068D53C03BB812AE7 /* NSNotificationCenter+PYClear.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BB82A4986D8C45A882C1EB0833B25 /* NSNotificationCenter+PYClear.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9F8BCA3941B19ECC670BBC2FBD172C82 /* NSObject+PYDeallocBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E5B260B524629715D0E225CEF09C1D /* NSObject+PYDeallocBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A09F427989A88392F7785775BCBEE174 /* NSArray+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B732618816FED4347EDA84C2602A3D /* NSArray+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A46EBCD9B7B083F7AA88936B54C95732 /* PYException-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7371C983E09225E01645B96DD48F2FF2 /* PYException-dummy.m */; };
-		A753F95D01861B7BA6DE4CB1D739C884 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF6F6723318C9E4D868B460959D691C /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD7BA1C5B9CCBDDD3267D340B3085924 /* UITextField+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C005918BDCBB0842CC9D9FAADF42F29 /* UITextField+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B6ABA6F4BDC28C19F17F328AE52E5A58 /* NSObject+PYZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2CF46DE82C05F378E3461A4FAB3CEE /* NSObject+PYZombie.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BB5E2469780F5E17FDAA203BDC2BEBC3 /* NSString+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = A62A27494E1A54B1033DD92E38A555D6 /* NSString+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C12871A53D6C880EC4A18A7673E5E982 /* NSMutableString+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F27BF7DAD8A9A98B9C8B478FEFFA0CB /* NSMutableString+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C3845D34C352DE61A0E94916D99BE631 /* NSNull+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B170145AA1880BA1E1ED0F6DDEF0040 /* NSNull+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CB22AB04D8A09827021B8147054C9880 /* PYZombieMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A05B9C05107CE4BC052317EA107FC40D /* PYZombieMonitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CF54E1B8C4E195057EFD34A4E92BB599 /* WKWebView+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 8973AF6E5274C4F861E62CE395C27D4D /* WKWebView+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BFD5A109A94CAF78F07DD5E92E20C6A /* NSObject+PYZombie.h in Headers */ = {isa = PBXBuildFile; fileRef = A327AF1A1292596C317CA292FA4939DE /* NSObject+PYZombie.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E1464E68FAD85DD9D00335C9B1DF6F8 /* NSNotificationCenter+PYClear.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB2453F14995C51A20999047F4FD3 /* NSNotificationCenter+PYClear.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		65DB17944BA3E974094089020D6A8E81 /* NSMutableSet+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F197A476E435EA8355AA71C9DA14993 /* NSMutableSet+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E3A3541A6A9564E757961294FA503ED /* NSObject+PYDeallocBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B83AD8FDF0F767BBD24AB6ACC58B23 /* NSObject+PYDeallocBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7050F4621197BB702A79C83139D8953B /* UITextField+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC3CD67711E57F8207EC0EA21890C2 /* UITextField+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		72B85337D92F74A22C66C292002C1284 /* PYExceptionHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B84DF6C0D7980E4DD80E295325F6261 /* PYExceptionHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AC5BF8006734EE44863AF0F1093C0D9 /* NSObject+PYSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = E3650040D1364FDD79342B1786BFA8DB /* NSObject+PYSwizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		853BBC0DBEFAE679F3602355ECFCDD27 /* PYException-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7109E093AD41CEA1E9ABCF2537D8C6 /* PYException-dummy.m */; };
+		8C0415854CE3B0BF7DE63C9D2A81A053 /* NSObject+unrecognized.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC455A132E29A632A4AFBC74479D2A5 /* NSObject+unrecognized.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8F5F2A310DE8995A5B2E2D76CCCABC56 /* NSObject+unrecognized.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7D01C5867162F6093F708338BBB653 /* NSObject+unrecognized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FBCF645981DB442B452B387BC793889 /* NSNotificationCenter+PYClear.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9CA402EF5BC48D362790BE7B41C671 /* NSNotificationCenter+PYClear.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91D7693D46FD9E55072D0206CE1D9C78 /* NSObject+PYDeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 95523AFF75298C9E82AE059AA6AE741F /* NSObject+PYDeallocBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		975B3E3DC8C4E8AA09D4AF5DB1664C60 /* NSTimer+PYClean.h in Headers */ = {isa = PBXBuildFile; fileRef = 3198C210D223B833FB2F85E25DF07864 /* NSTimer+PYClean.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98B2B4D4D9FC542A8EF5F9E84B9E99B5 /* NSNull+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = E56874E8B4568BFD89A84CE6EB50DDD1 /* NSNull+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C070A641E82DDF3D90BD7C3B93A4F6F /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = E46F98B31C9533772452C39F7CEE1996 /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A12D4091FC4C5A48AD350C51643929CA /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E1D05820B434D7AB0346AA2290C443C /* queue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2FD100B315278A16A56AF80B9E0C761 /* PYZombieMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 72418DDC5AEEAD5C27FC08C0977F8741 /* PYZombieMonitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B08711C3617828D6B0F61300464BDE14 /* NSObject+PYSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = FC42C25D51A1E55B3AF494C5DA689261 /* NSObject+PYSwizzling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B0F5992472FA8008B9215E10724AFC6E /* UILabel+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6431B5AA450B84F4E6250173F5C07 /* UILabel+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B1BB11A21D4701DF46229B92D1D310CC /* NSMutableAttributedString+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0EF8018D9B5B458456D558EA26F766 /* NSMutableAttributedString+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B519190AD9BC3363A0C50802540E2E94 /* NSNull+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F4839F0C30E8A225F2BBAE94E759757 /* NSNull+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8CAB91C0D6F5B71F3CA0CCCDC432AE1 /* NSObject+PYZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EC11B0084EA1EF0BA17B672BB602E2 /* NSObject+PYZombie.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BDED9985ECB1D76A63FF49C50FDBF79C /* PYExceptionGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 56ED0A8791566BFAC227340BCF638668 /* PYExceptionGlobal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1B321B22E181B989027570C07166683 /* NSArray+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = F924B76B244A4E2DDF637E31AF9D35FF /* NSArray+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D59C482A242003CA99561EFA6DC9BA43 /* Pods-PYExceptionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 881FCA622B8C755431ED52DD144DC7A2 /* Pods-PYExceptionDemo-dummy.m */; };
-		D7D257072E4AA34D3B248D91637CC0CD /* NSUserDefaults+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 07109654BA0E99F7F72A705DE2221D7F /* NSUserDefaults+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E153ABC72AA1DB4DC0F56F2CFB26449C /* NSDictionary+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C47F57E207E31B162F3BE830C9A22BC /* NSDictionary+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E3D5BD07FF40BB6E8A7AF834D16F85E8 /* NSString+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81C83CE936A9F482AE34CE16FE92B8 /* NSString+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E4B73EC5DE084EB427509B18A08A4D42 /* PYExceptionHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED3133F8BAE7819A44A0E5ED6207DEA /* PYExceptionHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E98533A3056478EB14D8F30678FA13CE /* WKWebView+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A911D297720194F79621A9AFFBF2081 /* WKWebView+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E9A5BB9203E51DD6DF8BF3069F548040 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDFBDFBFEE3A0DAEBB22FD2DDACD69 /* queue.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EB2227A8FCFD6FB7924E137888284480 /* NSMutableAttributedString+PYNException.m in Sources */ = {isa = PBXBuildFile; fileRef = AC01514793DF3FA92B7813C72A48E37A /* NSMutableAttributedString+PYNException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EE493F8C640D67A8CA6D5DB343DE8280 /* NSDictionary+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A2EA678E8BC37005FBC59816560678 /* NSDictionary+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F98806047F73EFD6E1583FF1530FD713 /* PYZombieProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF472E0321415E7A65A5536AD551A593 /* PYZombieProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FFB2782F4DF623A5B828BDA6BEF0E6E8 /* NSJSONSerialization+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AC2D3CB9F35EBC50D43871C9789924E /* NSJSONSerialization+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E06C93D349A292DCCD2BA389B58FBC29 /* UILabel+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 882B250AA3BE98929185C670979C296A /* UILabel+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E22178D097CC314AD494521792E32319 /* NSObject+PYKVOException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D798B233A1594080E6A193747C20421 /* NSObject+PYKVOException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E25A887488536030B636423BFCB4A970 /* NSUserDefaults+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 0531CCF2A668C54333C11931C28B0F45 /* NSUserDefaults+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7D7EB28C674A9DC96104F815ED83E2E /* PYExceptionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A99979613BB42122368ABA2AC5979102 /* PYExceptionHandle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB33A81E79CEC0708E35504EBA3F11A8 /* UIButton+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB700BAEA93C33663828B0ABB7FC48F /* UIButton+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEB1D1C8262563BE131CA8B915140C77 /* UIButton+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 5188DD5346846D1A82F53DA81A159AF2 /* UIButton+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F08C321914A6AB038117C220DECF817F /* NSString+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC02FFD319AADAA5DC5D26890D385C6 /* NSString+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4F2ADFF121E37CD4F2B81F7D4B611D1 /* WKWebView+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D030D29CB1D337BDA23DAC6B16238B /* WKWebView+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F842758CB45D17514B842FA696BA35EE /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = C8B2BBDC59AF48A6CFBB06E62F3DD46D /* queue.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F8D984B2E68DA2D11AC13CDEA8796134 /* NSJSONSerialization+PYException.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F3337B0AEDD1226744A2484D82C100 /* NSJSONSerialization+PYException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA20615D42D76FBDB84A2CCDEEDEA1CD /* PYZombieMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0BCB4E8C673933061D7DB426C4487B /* PYZombieMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE765C55381F869CE67B967BEDC1FAB1 /* NSString+PYException.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE3282F1967BB18CA88B411CC66C73 /* NSString+PYException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,73 +75,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07109654BA0E99F7F72A705DE2221D7F /* NSUserDefaults+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+PYException.m"; sourceTree = "<group>"; };
-		072165BDFBBC7E99910DBB59541A13B4 /* NSTimer+PYClean.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PYClean.m"; sourceTree = "<group>"; };
+		0531CCF2A668C54333C11931C28B0F45 /* NSUserDefaults+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+PYException.m"; sourceTree = "<group>"; };
 		0B50B165882FC6C93CD0B63D62D30E3D /* Pods-PYExceptionDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYExceptionDemo-frameworks.sh"; sourceTree = "<group>"; };
-		0C276C32DF52F7ACFB91382617C01E59 /* NSObject+unrecognized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+unrecognized.h"; sourceTree = "<group>"; };
-		11B732618816FED4347EDA84C2602A3D /* NSArray+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+PYException.h"; sourceTree = "<group>"; };
+		11151789922F47F35AF2B0A79F9130AB /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
 		15AF939A77C6595AF0FA14CE1F087140 /* libPYException.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPYException.a; path = libPYException.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		17C91858BCA4E74D2F648C8B64427E92 /* PYZombieProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYZombieProxy.h; sourceTree = "<group>"; };
-		1A911D297720194F79621A9AFFBF2081 /* WKWebView+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+PYException.m"; sourceTree = "<group>"; };
-		1B263DAAEFDB73C57FD207CDA95B3F13 /* NSNull+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNull+PYException.m"; sourceTree = "<group>"; };
-		1BFA230D8BA2AC5241E7C5D79E4A8F37 /* NSObject+PYKVOException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYKVOException.h"; sourceTree = "<group>"; };
-		1ED3133F8BAE7819A44A0E5ED6207DEA /* PYExceptionHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYExceptionHandle.h; path = PYException/Global/PYExceptionHandle.h; sourceTree = "<group>"; };
-		206209B1C1ADE6FB65C383A1112EACE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2599C4057C8EF70EC6DE4BA1692AD17F /* UIButton+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PYException.m"; sourceTree = "<group>"; };
-		26B42F6949085C77681F6FF12AAB57C9 /* NSObject+PYDeallocBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PYDeallocBlock.m"; path = "PYException/PYDeallocBlock/NSObject+PYDeallocBlock.m"; sourceTree = "<group>"; };
-		2834CD20B8CA3D1AA998C8BE09310B2A /* NSNotificationCenter+PYClear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+PYClear.h"; sourceTree = "<group>"; };
-		373EC672F0AC47D0C899A5145438699F /* UILabel+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PYException.m"; sourceTree = "<group>"; };
-		3B9E1965479E678065997AEF6D3BFDCB /* NSTimer+PYClean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PYClean.h"; sourceTree = "<group>"; };
-		3BF8CE463870A06CCD5417BF4879052B /* PYExceptionHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYExceptionHandle.m; path = PYException/Global/PYExceptionHandle.m; sourceTree = "<group>"; };
-		3EDA05B7DD7F084965066FA060BC05EE /* NSMutableAttributedString+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+PYException.h"; sourceTree = "<group>"; };
-		3FCDFBDFBFEE3A0DAEBB22FD2DDACD69 /* queue.c */ = {isa = PBXFileReference; includeInIndex = 1; path = queue.c; sourceTree = "<group>"; };
-		41A2EA678E8BC37005FBC59816560678 /* NSDictionary+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PYException.m"; sourceTree = "<group>"; };
-		46FC6005EC101501C586D8DF3DED5968 /* NSArray+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PYException.m"; sourceTree = "<group>"; };
-		4AF6F6723318C9E4D868B460959D691C /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		4C005918BDCBB0842CC9D9FAADF42F29 /* UITextField+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PYException.m"; sourceTree = "<group>"; };
-		4C47F57E207E31B162F3BE830C9A22BC /* NSDictionary+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PYException.h"; sourceTree = "<group>"; };
-		4D79624FADD2DE410598B1787FC742B8 /* NSObject+unrecognized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+unrecognized.m"; sourceTree = "<group>"; };
-		520BB82A4986D8C45A882C1EB0833B25 /* NSNotificationCenter+PYClear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+PYClear.m"; sourceTree = "<group>"; };
-		54CEC359C749884068E30A4182BED487 /* PYExceptionHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYExceptionHeader.h; path = PYException/PYExceptionHeader.h; sourceTree = "<group>"; };
-		588A40D74266C2BEB45ADA06971F27C8 /* PYExceptionGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYExceptionGlobal.h; path = PYException/Global/PYExceptionGlobal.h; sourceTree = "<group>"; };
+		1A6309817B967AE98708B70BA0B620E9 /* NSMutableSet+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+PYException.m"; sourceTree = "<group>"; };
+		1E1D05820B434D7AB0346AA2290C443C /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		1EC02FFD319AADAA5DC5D26890D385C6 /* NSString+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+PYException.h"; sourceTree = "<group>"; };
+		21A00CFC1F088C601C75C503F01ED2B5 /* NSMutableString+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+PYException.m"; sourceTree = "<group>"; };
+		29D030D29CB1D337BDA23DAC6B16238B /* WKWebView+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+PYException.m"; sourceTree = "<group>"; };
+		2C3E953E1700CC64F94CA59DA5D0A79A /* NSArray+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+PYException.h"; sourceTree = "<group>"; };
+		3198C210D223B833FB2F85E25DF07864 /* NSTimer+PYClean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PYClean.h"; sourceTree = "<group>"; };
+		38512533A3F8E75468904DBFB2C30E77 /* NSDictionary+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PYException.m"; sourceTree = "<group>"; };
+		3D798B233A1594080E6A193747C20421 /* NSObject+PYKVOException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYKVOException.h"; sourceTree = "<group>"; };
+		3F197A476E435EA8355AA71C9DA14993 /* NSMutableSet+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+PYException.h"; sourceTree = "<group>"; };
+		4B84DF6C0D7980E4DD80E295325F6261 /* PYExceptionHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYExceptionHandle.h; path = PYException/Global/PYExceptionHandle.h; sourceTree = "<group>"; };
+		4EFC3CD67711E57F8207EC0EA21890C2 /* UITextField+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PYException.m"; sourceTree = "<group>"; };
+		4F95711C1BEBA24A1FB2FB8E5D8ED2AE /* NSObject+PYKVOException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYKVOException.m"; sourceTree = "<group>"; };
+		5188DD5346846D1A82F53DA81A159AF2 /* UIButton+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+PYException.h"; sourceTree = "<group>"; };
+		538D1AF3F5502CB5DA7934C93036C0C8 /* NSDictionary+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PYException.h"; sourceTree = "<group>"; };
+		56ED0A8791566BFAC227340BCF638668 /* PYExceptionGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYExceptionGlobal.h; path = PYException/Global/PYExceptionGlobal.h; sourceTree = "<group>"; };
+		5864A36E908A218A36F6964C9885B030 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		596715A465A66C51549DB0BCAED126B7 /* Pods-PYExceptionDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYExceptionDemo-resources.sh"; sourceTree = "<group>"; };
-		5E642A3327C40FF8C4C237CAD86C3EF0 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
-		5F27BF7DAD8A9A98B9C8B478FEFFA0CB /* NSMutableString+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+PYException.h"; sourceTree = "<group>"; };
-		60B8C997E5188239010B6DFBC798E586 /* PYException.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYException.xcconfig; sourceTree = "<group>"; };
-		697410F8D913426DDE2AD2FF8D63DAF4 /* NSObject+PYSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PYSwizzling.m"; path = "PYException/Swizzling/NSObject+PYSwizzling.m"; sourceTree = "<group>"; };
-		721AACAE1D38657B306C5001D277E7B3 /* UIButton+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+PYException.h"; sourceTree = "<group>"; };
-		7371C983E09225E01645B96DD48F2FF2 /* PYException-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYException-dummy.m"; sourceTree = "<group>"; };
-		7AC2D3CB9F35EBC50D43871C9789924E /* NSJSONSerialization+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+PYException.h"; sourceTree = "<group>"; };
+		61AE3282F1967BB18CA88B411CC66C73 /* NSString+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+PYException.m"; sourceTree = "<group>"; };
+		69D6BBE131E58853CB81B8C7C80DCECF /* UITextField+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+PYException.h"; sourceTree = "<group>"; };
+		6D7D01C5867162F6093F708338BBB653 /* NSObject+unrecognized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+unrecognized.h"; sourceTree = "<group>"; };
+		70EC11B0084EA1EF0BA17B672BB602E2 /* NSObject+PYZombie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYZombie.m"; sourceTree = "<group>"; };
+		72418DDC5AEEAD5C27FC08C0977F8741 /* PYZombieMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYZombieMonitor.m; sourceTree = "<group>"; };
+		7941B7CF63C07B201ACFAFD772020699 /* NSMutableString+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+PYException.h"; sourceTree = "<group>"; };
 		7BB73E97B637D09C342FBDCE30BAFDA4 /* Pods-PYExceptionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYExceptionDemo.release.xcconfig"; sourceTree = "<group>"; };
-		81B0166680D2E65B7DED7BA577FEEA54 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
-		844AA4DBAB22C9746884C894CDC43727 /* UILabel+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+PYException.h"; sourceTree = "<group>"; };
+		7EC455A132E29A632A4AFBC74479D2A5 /* NSObject+unrecognized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+unrecognized.m"; sourceTree = "<group>"; };
+		7F4839F0C30E8A225F2BBAE94E759757 /* NSNull+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+PYException.h"; sourceTree = "<group>"; };
+		816A23A4BB2DE313E2E211AB726A9A97 /* PYException-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYException-prefix.pch"; sourceTree = "<group>"; };
 		881FCA622B8C755431ED52DD144DC7A2 /* Pods-PYExceptionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYExceptionDemo-dummy.m"; sourceTree = "<group>"; };
-		8973AF6E5274C4F861E62CE395C27D4D /* WKWebView+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKWebView+PYException.h"; sourceTree = "<group>"; };
+		882B250AA3BE98929185C670979C296A /* UILabel+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+PYException.h"; sourceTree = "<group>"; };
 		8A53D81DEA4960139D0FE8C68BB0D560 /* Pods-PYExceptionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYExceptionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8AE6431B5AA450B84F4E6250173F5C07 /* UILabel+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PYException.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98EE872F90606F35B266E80F1A58AB88 /* NSMutableString+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+PYException.m"; sourceTree = "<group>"; };
-		9B170145AA1880BA1E1ED0F6DDEF0040 /* NSNull+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+PYException.h"; sourceTree = "<group>"; };
-		9CEE6AD53ED04AFF597CE71B025B1D5D /* NSObject+PYSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PYSwizzling.h"; path = "PYException/Swizzling/NSObject+PYSwizzling.h"; sourceTree = "<group>"; };
-		A05B9C05107CE4BC052317EA107FC40D /* PYZombieMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYZombieMonitor.m; sourceTree = "<group>"; };
-		A431DA20590ECE9F8AF7043F619E29D2 /* NSObject+PYZombie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYZombie.h"; sourceTree = "<group>"; };
-		A62A27494E1A54B1033DD92E38A555D6 /* NSString+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+PYException.h"; sourceTree = "<group>"; };
-		AC01514793DF3FA92B7813C72A48E37A /* NSMutableAttributedString+PYNException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+PYNException.m"; sourceTree = "<group>"; };
+		95523AFF75298C9E82AE059AA6AE741F /* NSObject+PYDeallocBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PYDeallocBlock.m"; path = "PYException/PYDeallocBlock/NSObject+PYDeallocBlock.m"; sourceTree = "<group>"; };
+		9B2F1858BB298D96D4D1239277F49DA7 /* PYException.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYException.xcconfig; sourceTree = "<group>"; };
+		9BB700BAEA93C33663828B0ABB7FC48F /* UIButton+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PYException.m"; sourceTree = "<group>"; };
+		A327AF1A1292596C317CA292FA4939DE /* NSObject+PYZombie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+PYZombie.h"; sourceTree = "<group>"; };
+		A99979613BB42122368ABA2AC5979102 /* PYExceptionHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYExceptionHandle.m; path = PYException/Global/PYExceptionHandle.m; sourceTree = "<group>"; };
+		AADD01DE45792EB389FE3C94A4E1857A /* PYZombieProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYZombieProxy.h; sourceTree = "<group>"; };
 		ADB06D290E1D222624BBFD735744EE02 /* Pods-PYExceptionDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYExceptionDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		C43AFEBF798FC8FAE28BC940D525A57B /* NSUserDefaults+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+PYException.h"; sourceTree = "<group>"; };
-		C4E5B260B524629715D0E225CEF09C1D /* NSObject+PYDeallocBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PYDeallocBlock.h"; path = "PYException/PYDeallocBlock/NSObject+PYDeallocBlock.h"; sourceTree = "<group>"; };
-		C5D85ACF9AD603E6CFCC7757544515C7 /* NSObject+PYKVOException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYKVOException.m"; sourceTree = "<group>"; };
-		CCB08EBEE1E2D4BF77952F085F4E0BC9 /* UITextField+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+PYException.h"; sourceTree = "<group>"; };
-		D089FFD6F9B7CEB17EB3347EF4D0402F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B317F687E51B8A5312B0F96E7C1B5DC8 /* NSUserDefaults+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+PYException.h"; sourceTree = "<group>"; };
+		BB10C5B5AE90F34EA5C8B1C55A23AF7E /* PYException.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PYException.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB9CA402EF5BC48D362790BE7B41C671 /* NSNotificationCenter+PYClear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+PYClear.h"; sourceTree = "<group>"; };
+		BD0BCB4E8C673933061D7DB426C4487B /* PYZombieMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYZombieMonitor.h; sourceTree = "<group>"; };
+		BF4E807722831235DC4978E0401E1B1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C55DAEBF5FFAECB6839756292D733A09 /* NSTimer+PYClean.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PYClean.m"; sourceTree = "<group>"; };
+		C8B2BBDC59AF48A6CFBB06E62F3DD46D /* queue.c */ = {isa = PBXFileReference; includeInIndex = 1; path = queue.c; sourceTree = "<group>"; };
+		D1F3337B0AEDD1226744A2484D82C100 /* NSJSONSerialization+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+PYException.h"; sourceTree = "<group>"; };
 		D4809A63999CE2139D523A7C32EF9B8B /* libPods-PYExceptionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYExceptionDemo.a"; path = "libPods-PYExceptionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D83468CC677FD62E6ADCF6762FFD4378 /* Pods-PYExceptionDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYExceptionDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DDD098A4244F0D1681FE4F1F60F0D7C8 /* PYException-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYException-prefix.pch"; sourceTree = "<group>"; };
-		E2AC47110A605079E1A4FCB7D7B086C5 /* PYException.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PYException.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EF472E0321415E7A65A5536AD551A593 /* PYZombieProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYZombieProxy.m; sourceTree = "<group>"; };
-		F7839686BBB2BDE8CD3EEB616798C9BF /* NSJSONSerialization+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+PYException.m"; sourceTree = "<group>"; };
-		FA312A3F7875188229F889AE1D235D49 /* PYZombieMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYZombieMonitor.h; sourceTree = "<group>"; };
-		FB2CF46DE82C05F378E3461A4FAB3CEE /* NSObject+PYZombie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PYZombie.m"; sourceTree = "<group>"; };
-		FD81C83CE936A9F482AE34CE16FE92B8 /* NSString+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+PYException.m"; sourceTree = "<group>"; };
+		DB6DB2453F14995C51A20999047F4FD3 /* NSNotificationCenter+PYClear.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+PYClear.m"; sourceTree = "<group>"; };
+		E3650040D1364FDD79342B1786BFA8DB /* NSObject+PYSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PYSwizzling.h"; path = "PYException/Swizzling/NSObject+PYSwizzling.h"; sourceTree = "<group>"; };
+		E46F98B31C9533772452C39F7CEE1996 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		E56874E8B4568BFD89A84CE6EB50DDD1 /* NSNull+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNull+PYException.m"; sourceTree = "<group>"; };
+		E759F837F3694DDA15BB05895A45AF0A /* PYExceptionHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYExceptionHeader.h; path = PYException/PYExceptionHeader.h; sourceTree = "<group>"; };
+		EC0EF8018D9B5B458456D558EA26F766 /* NSMutableAttributedString+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+PYException.h"; sourceTree = "<group>"; };
+		EE7109E093AD41CEA1E9ABCF2537D8C6 /* PYException-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYException-dummy.m"; sourceTree = "<group>"; };
+		F03B141E0A74709F9B2B3DBA190B36FB /* NSJSONSerialization+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+PYException.m"; sourceTree = "<group>"; };
+		F2B83AD8FDF0F767BBD24AB6ACC58B23 /* NSObject+PYDeallocBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PYDeallocBlock.h"; path = "PYException/PYDeallocBlock/NSObject+PYDeallocBlock.h"; sourceTree = "<group>"; };
+		F3183A3947E440BEA098862F4652E0E1 /* NSMutableAttributedString+PYNException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+PYNException.m"; sourceTree = "<group>"; };
+		F89E9837129A7FCEE8F5D5EE209BBFA0 /* PYZombieProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYZombieProxy.m; sourceTree = "<group>"; };
+		F8AF5F6C89A4ACC15D985DBD1755B028 /* WKWebView+PYException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKWebView+PYException.h"; sourceTree = "<group>"; };
+		F924B76B244A4E2DDF637E31AF9D35FF /* NSArray+PYException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PYException.m"; sourceTree = "<group>"; };
+		FC42C25D51A1E55B3AF494C5DA689261 /* NSObject+PYSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PYSwizzling.m"; path = "PYException/Swizzling/NSObject+PYSwizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,42 +165,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03F4A085B15B6E5338BB9AA3F5F9BDF4 /* NSMutableAttributedString */ = {
+		096178A361ACA269C4779A8C3AA4131D /* ARC */ = {
 			isa = PBXGroup;
 			children = (
-				3EDA05B7DD7F084965066FA060BC05EE /* NSMutableAttributedString+PYException.h */,
-				AC01514793DF3FA92B7813C72A48E37A /* NSMutableAttributedString+PYNException.m */,
+				6B7E684D3AC34E8F133D76DDFED467F0 /* NSArray */,
+				F62BC8EB98CA1BEE81A4892DEE4A2020 /* NSDictionary */,
+				82AC2E11FF37A747700958B3B6208CC4 /* NSJSONSerialization */,
+				EE2AAE4C130D88E236C352C0131B6A57 /* NSMutableAttributedString */,
+				6738E18FF5DBF3C4FE5802ACE59A11F6 /* NSMutableSet */,
+				29CEFA97D7A0B89FA2ABC655F2C13370 /* NSMutableString */,
+				4CE143485A995DA799334FAAC6B1386E /* NSNull */,
+				FE33B2EE77FB2C4C14077E026CB76E7C /* NSString */,
+				AF683DAE4F7BBC18A8C804FF152A86C3 /* NSTimer */,
+				A5603C588FA68F7FEEAF9D7602FBB102 /* NSUserDefaults */,
+				4B9CD5568A490C58E6118916BAF67976 /* UI */,
 			);
-			name = NSMutableAttributedString;
-			path = PYException/ARC/NSMutableAttributedString;
+			name = ARC;
 			sourceTree = "<group>";
 		};
 		0CF2C16A47CD55F5E8DCF3530274D809 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75BAB4CDCD636E7A00CD9AA2FA8C3B8C /* PYException */,
+				1B50A6E43A14DC9E2CB7918CE4E3A4FE /* PYException */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0EDC6E97F2A5CD9AACF38AB18261C12A /* NSDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				4C47F57E207E31B162F3BE830C9A22BC /* NSDictionary+PYException.h */,
-				41A2EA678E8BC37005FBC59816560678 /* NSDictionary+PYException.m */,
-			);
-			name = NSDictionary;
-			path = PYException/ARC/NSDictionary;
-			sourceTree = "<group>";
-		};
-		1231AE3902E531171E4F573076E7DBE7 /* KVO */ = {
-			isa = PBXGroup;
-			children = (
-				1BFA230D8BA2AC5241E7C5D79E4A8F37 /* NSObject+PYKVOException.h */,
-				C5D85ACF9AD603E6CFCC7757544515C7 /* NSObject+PYKVOException.m */,
-			);
-			name = KVO;
-			path = PYException/MRC/KVO;
 			sourceTree = "<group>";
 		};
 		16BA4EE1A4260AE5268A83ADC3CBF632 /* Pods-PYExceptionDemo */ = {
@@ -214,35 +206,50 @@
 			path = "Target Support Files/Pods-PYExceptionDemo";
 			sourceTree = "<group>";
 		};
-		19F49BC718020F0D2BB74D39C93464F8 /* NSMutableString */ = {
+		18125C8660A158F4E18E01EB7253F751 /* Swizzling */ = {
 			isa = PBXGroup;
 			children = (
-				5F27BF7DAD8A9A98B9C8B478FEFFA0CB /* NSMutableString+PYException.h */,
-				98EE872F90606F35B266E80F1A58AB88 /* NSMutableString+PYException.m */,
+				E3650040D1364FDD79342B1786BFA8DB /* NSObject+PYSwizzling.h */,
+				FC42C25D51A1E55B3AF494C5DA689261 /* NSObject+PYSwizzling.m */,
+				4676349CFCFB70FB6B1B4DE084ACE2AF /* Fishhook */,
+			);
+			name = Swizzling;
+			sourceTree = "<group>";
+		};
+		1B50A6E43A14DC9E2CB7918CE4E3A4FE /* PYException */ = {
+			isa = PBXGroup;
+			children = (
+				096178A361ACA269C4779A8C3AA4131D /* ARC */,
+				FE336762DF78D38CFC65682CA7C1FB39 /* Global */,
+				A67B6B38F58ED25CD2E0D98A4DB90CBD /* Header */,
+				8BEACCA0A4550C1505D50D9F38C799F6 /* MRC */,
+				A07AE5CF2D46A2F344F821F9318B5033 /* Pod */,
+				B2769C869769FF327D959EA844B8D066 /* PYDeallocBlock */,
+				B348ACCF3A5DDA5FDED3EC6C917E95D4 /* Support Files */,
+				18125C8660A158F4E18E01EB7253F751 /* Swizzling */,
+			);
+			name = PYException;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1C5F761CD28D5515E737EBACD9844EF4 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				5188DD5346846D1A82F53DA81A159AF2 /* UIButton+PYException.h */,
+				9BB700BAEA93C33663828B0ABB7FC48F /* UIButton+PYException.m */,
+			);
+			name = UIButton;
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		29CEFA97D7A0B89FA2ABC655F2C13370 /* NSMutableString */ = {
+			isa = PBXGroup;
+			children = (
+				7941B7CF63C07B201ACFAFD772020699 /* NSMutableString+PYException.h */,
+				21A00CFC1F088C601C75C503F01ED2B5 /* NSMutableString+PYException.m */,
 			);
 			name = NSMutableString;
 			path = PYException/ARC/NSMutableString;
-			sourceTree = "<group>";
-		};
-		28A774A28ACC36ECAD5823F97B82DC17 /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				A62A27494E1A54B1033DD92E38A555D6 /* NSString+PYException.h */,
-				FD81C83CE936A9F482AE34CE16FE92B8 /* NSString+PYException.m */,
-			);
-			name = NSString;
-			path = PYException/ARC/NSString;
-			sourceTree = "<group>";
-		};
-		403B40404FA84553DE4238761D1EB303 /* MRC */ = {
-			isa = PBXGroup;
-			children = (
-				1231AE3902E531171E4F573076E7DBE7 /* KVO */,
-				6CDC9CA36D4BCC14F3775AED61DE2546 /* NSNotificationCenter */,
-				E9BD4C5585B63CC9B234DAC0F05BE440 /* unrecognized */,
-				9FEBF708981F5DA1D115D267B123F981 /* zombie */,
-			);
-			name = MRC;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -253,97 +260,78 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4B31322CACC5569F6BA5F70BC2879FBC /* NSJSONSerialization */ = {
+		4676349CFCFB70FB6B1B4DE084ACE2AF /* Fishhook */ = {
 			isa = PBXGroup;
 			children = (
-				7AC2D3CB9F35EBC50D43871C9789924E /* NSJSONSerialization+PYException.h */,
-				F7839686BBB2BDE8CD3EEB616798C9BF /* NSJSONSerialization+PYException.m */,
+				11151789922F47F35AF2B0A79F9130AB /* fishhook.c */,
+				E46F98B31C9533772452C39F7CEE1996 /* fishhook.h */,
+				C8B2BBDC59AF48A6CFBB06E62F3DD46D /* queue.c */,
+				1E1D05820B434D7AB0346AA2290C443C /* queue.h */,
 			);
-			name = NSJSONSerialization;
-			path = PYException/ARC/NSJSONSerialization;
+			name = Fishhook;
+			path = PYException/Swizzling/Fishhook;
 			sourceTree = "<group>";
 		};
-		4CEBF24C083F0E55104154A31B6C7568 /* PYDeallocBlock */ = {
+		4B9CD5568A490C58E6118916BAF67976 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				C4E5B260B524629715D0E225CEF09C1D /* NSObject+PYDeallocBlock.h */,
-				26B42F6949085C77681F6FF12AAB57C9 /* NSObject+PYDeallocBlock.m */,
+				1C5F761CD28D5515E737EBACD9844EF4 /* UIButton */,
+				5CD159075D7C580EDC3FDBB6385C70E6 /* UILabel */,
+				D9A76C82D713C2FB12965D374855C7D0 /* UITextField */,
+				A5F09D972964A8ED1055FF3A007B51D3 /* WKWebView */,
 			);
-			name = PYDeallocBlock;
+			name = UI;
+			path = PYException/ARC/UI;
 			sourceTree = "<group>";
 		};
-		5F2370A759E7674C3C709473F13232C2 /* UIButton */ = {
+		4CE143485A995DA799334FAAC6B1386E /* NSNull */ = {
 			isa = PBXGroup;
 			children = (
-				721AACAE1D38657B306C5001D277E7B3 /* UIButton+PYException.h */,
-				2599C4057C8EF70EC6DE4BA1692AD17F /* UIButton+PYException.m */,
+				7F4839F0C30E8A225F2BBAE94E759757 /* NSNull+PYException.h */,
+				E56874E8B4568BFD89A84CE6EB50DDD1 /* NSNull+PYException.m */,
 			);
-			name = UIButton;
-			path = UIButton;
+			name = NSNull;
+			path = PYException/ARC/NSNull;
 			sourceTree = "<group>";
 		};
-		65BDE00C96F5A3FE8970D347B677039A /* Header */ = {
+		5CD159075D7C580EDC3FDBB6385C70E6 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				54CEC359C749884068E30A4182BED487 /* PYExceptionHeader.h */,
+				882B250AA3BE98929185C670979C296A /* UILabel+PYException.h */,
+				8AE6431B5AA450B84F4E6250173F5C07 /* UILabel+PYException.m */,
 			);
-			name = Header;
+			name = UILabel;
+			path = UILabel;
 			sourceTree = "<group>";
 		};
-		6CDC9CA36D4BCC14F3775AED61DE2546 /* NSNotificationCenter */ = {
+		6738E18FF5DBF3C4FE5802ACE59A11F6 /* NSMutableSet */ = {
 			isa = PBXGroup;
 			children = (
-				2834CD20B8CA3D1AA998C8BE09310B2A /* NSNotificationCenter+PYClear.h */,
-				520BB82A4986D8C45A882C1EB0833B25 /* NSNotificationCenter+PYClear.m */,
+				3F197A476E435EA8355AA71C9DA14993 /* NSMutableSet+PYException.h */,
+				1A6309817B967AE98708B70BA0B620E9 /* NSMutableSet+PYException.m */,
 			);
-			name = NSNotificationCenter;
-			path = PYException/MRC/NSNotificationCenter;
+			name = NSMutableSet;
+			path = PYException/ARC/NSMutableSet;
 			sourceTree = "<group>";
 		};
-		7572EFC6CAA8D577CEC5B8030956C846 /* UITextField */ = {
+		6B7E684D3AC34E8F133D76DDFED467F0 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
-				CCB08EBEE1E2D4BF77952F085F4E0BC9 /* UITextField+PYException.h */,
-				4C005918BDCBB0842CC9D9FAADF42F29 /* UITextField+PYException.m */,
-			);
-			name = UITextField;
-			path = UITextField;
-			sourceTree = "<group>";
-		};
-		75BAB4CDCD636E7A00CD9AA2FA8C3B8C /* PYException */ = {
-			isa = PBXGroup;
-			children = (
-				92275F4B3E0B1F5BFE40FA4F2986A10E /* ARC */,
-				CA96B2B4F2022A83CDAB8B962202DF7C /* Global */,
-				65BDE00C96F5A3FE8970D347B677039A /* Header */,
-				403B40404FA84553DE4238761D1EB303 /* MRC */,
-				8305205B89585A844580ABC12D778F49 /* Pod */,
-				4CEBF24C083F0E55104154A31B6C7568 /* PYDeallocBlock */,
-				DDD1FBAEDC5A7B3D019678C3CB97FD0A /* Support Files */,
-				84FBA59D970BBF3E3702E0FA55DAD715 /* Swizzling */,
-			);
-			name = PYException;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		76D27569F968CC72A130F876FCA1FAF5 /* NSArray */ = {
-			isa = PBXGroup;
-			children = (
-				11B732618816FED4347EDA84C2602A3D /* NSArray+PYException.h */,
-				46FC6005EC101501C586D8DF3DED5968 /* NSArray+PYException.m */,
+				2C3E953E1700CC64F94CA59DA5D0A79A /* NSArray+PYException.h */,
+				F924B76B244A4E2DDF637E31AF9D35FF /* NSArray+PYException.m */,
 			);
 			name = NSArray;
 			path = PYException/ARC/NSArray;
 			sourceTree = "<group>";
 		};
-		7A78720EF756587E764B0CBB37B2F089 /* NSNull */ = {
+		77F829A92139F38842B52C90C77BACAB /* KVO */ = {
 			isa = PBXGroup;
 			children = (
-				9B170145AA1880BA1E1ED0F6DDEF0040 /* NSNull+PYException.h */,
-				1B263DAAEFDB73C57FD207CDA95B3F13 /* NSNull+PYException.m */,
+				3D798B233A1594080E6A193747C20421 /* NSObject+PYKVOException.h */,
+				4F95711C1BEBA24A1FB2FB8E5D8ED2AE /* NSObject+PYKVOException.m */,
 			);
-			name = NSNull;
-			path = PYException/ARC/NSNull;
+			name = KVO;
+			path = PYException/MRC/KVO;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -357,24 +345,25 @@
 			);
 			sourceTree = "<group>";
 		};
-		8305205B89585A844580ABC12D778F49 /* Pod */ = {
+		82AC2E11FF37A747700958B3B6208CC4 /* NSJSONSerialization */ = {
 			isa = PBXGroup;
 			children = (
-				D089FFD6F9B7CEB17EB3347EF4D0402F /* LICENSE */,
-				E2AC47110A605079E1A4FCB7D7B086C5 /* PYException.podspec */,
-				206209B1C1ADE6FB65C383A1112EACE9 /* README.md */,
+				D1F3337B0AEDD1226744A2484D82C100 /* NSJSONSerialization+PYException.h */,
+				F03B141E0A74709F9B2B3DBA190B36FB /* NSJSONSerialization+PYException.m */,
 			);
-			name = Pod;
+			name = NSJSONSerialization;
+			path = PYException/ARC/NSJSONSerialization;
 			sourceTree = "<group>";
 		};
-		84FBA59D970BBF3E3702E0FA55DAD715 /* Swizzling */ = {
+		8BEACCA0A4550C1505D50D9F38C799F6 /* MRC */ = {
 			isa = PBXGroup;
 			children = (
-				9CEE6AD53ED04AFF597CE71B025B1D5D /* NSObject+PYSwizzling.h */,
-				697410F8D913426DDE2AD2FF8D63DAF4 /* NSObject+PYSwizzling.m */,
-				CB4DAEDD8A4E5DFE8ADBC8B3ABF68132 /* Fishhook */,
+				77F829A92139F38842B52C90C77BACAB /* KVO */,
+				CCAC05F24197A634C46C1DD2D26C50FB /* NSNotificationCenter */,
+				91FB13FA948A5BDA456386F776B3F2AA /* unrecognized */,
+				D5733872BE5B40304C1F416210235223 /* zombie */,
 			);
-			name = Swizzling;
+			name = MRC;
 			sourceTree = "<group>";
 		};
 		8DFCE98E184EC33B969FC2F0AF5B29E8 /* Targets Support Files */ = {
@@ -385,55 +374,82 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		92275F4B3E0B1F5BFE40FA4F2986A10E /* ARC */ = {
+		91FB13FA948A5BDA456386F776B3F2AA /* unrecognized */ = {
 			isa = PBXGroup;
 			children = (
-				76D27569F968CC72A130F876FCA1FAF5 /* NSArray */,
-				0EDC6E97F2A5CD9AACF38AB18261C12A /* NSDictionary */,
-				4B31322CACC5569F6BA5F70BC2879FBC /* NSJSONSerialization */,
-				03F4A085B15B6E5338BB9AA3F5F9BDF4 /* NSMutableAttributedString */,
-				19F49BC718020F0D2BB74D39C93464F8 /* NSMutableString */,
-				7A78720EF756587E764B0CBB37B2F089 /* NSNull */,
-				28A774A28ACC36ECAD5823F97B82DC17 /* NSString */,
-				A518BDCED0FEF931540BC801F520E574 /* NSTimer */,
-				E4CD6BC20634A1F031002FA228418860 /* NSUserDefaults */,
-				D2F5C0F84975DC9B87E621E11FBE669F /* UI */,
+				6D7D01C5867162F6093F708338BBB653 /* NSObject+unrecognized.h */,
+				7EC455A132E29A632A4AFBC74479D2A5 /* NSObject+unrecognized.m */,
 			);
-			name = ARC;
+			name = unrecognized;
+			path = PYException/MRC/unrecognized;
 			sourceTree = "<group>";
 		};
-		9FEBF708981F5DA1D115D267B123F981 /* zombie */ = {
+		A07AE5CF2D46A2F344F821F9318B5033 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A431DA20590ECE9F8AF7043F619E29D2 /* NSObject+PYZombie.h */,
-				FB2CF46DE82C05F378E3461A4FAB3CEE /* NSObject+PYZombie.m */,
-				FA312A3F7875188229F889AE1D235D49 /* PYZombieMonitor.h */,
-				A05B9C05107CE4BC052317EA107FC40D /* PYZombieMonitor.m */,
-				17C91858BCA4E74D2F648C8B64427E92 /* PYZombieProxy.h */,
-				EF472E0321415E7A65A5536AD551A593 /* PYZombieProxy.m */,
+				5864A36E908A218A36F6964C9885B030 /* LICENSE */,
+				BB10C5B5AE90F34EA5C8B1C55A23AF7E /* PYException.podspec */,
+				BF4E807722831235DC4978E0401E1B1E /* README.md */,
 			);
-			name = zombie;
-			path = PYException/MRC/zombie;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		A518BDCED0FEF931540BC801F520E574 /* NSTimer */ = {
+		A5603C588FA68F7FEEAF9D7602FBB102 /* NSUserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				3B9E1965479E678065997AEF6D3BFDCB /* NSTimer+PYClean.h */,
-				072165BDFBBC7E99910DBB59541A13B4 /* NSTimer+PYClean.m */,
+				B317F687E51B8A5312B0F96E7C1B5DC8 /* NSUserDefaults+PYException.h */,
+				0531CCF2A668C54333C11931C28B0F45 /* NSUserDefaults+PYException.m */,
+			);
+			name = NSUserDefaults;
+			path = PYException/ARC/NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		A5F09D972964A8ED1055FF3A007B51D3 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F8AF5F6C89A4ACC15D985DBD1755B028 /* WKWebView+PYException.h */,
+				29D030D29CB1D337BDA23DAC6B16238B /* WKWebView+PYException.m */,
+			);
+			name = WKWebView;
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		A67B6B38F58ED25CD2E0D98A4DB90CBD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				E759F837F3694DDA15BB05895A45AF0A /* PYExceptionHeader.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		AF683DAE4F7BBC18A8C804FF152A86C3 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3198C210D223B833FB2F85E25DF07864 /* NSTimer+PYClean.h */,
+				C55DAEBF5FFAECB6839756292D733A09 /* NSTimer+PYClean.m */,
 			);
 			name = NSTimer;
 			path = PYException/ARC/NSTimer;
 			sourceTree = "<group>";
 		};
-		B2ED188A0988042A4508289A79AAF869 /* WKWebView */ = {
+		B2769C869769FF327D959EA844B8D066 /* PYDeallocBlock */ = {
 			isa = PBXGroup;
 			children = (
-				8973AF6E5274C4F861E62CE395C27D4D /* WKWebView+PYException.h */,
-				1A911D297720194F79621A9AFFBF2081 /* WKWebView+PYException.m */,
+				F2B83AD8FDF0F767BBD24AB6ACC58B23 /* NSObject+PYDeallocBlock.h */,
+				95523AFF75298C9E82AE059AA6AE741F /* NSObject+PYDeallocBlock.m */,
 			);
-			name = WKWebView;
-			path = WKWebView;
+			name = PYDeallocBlock;
+			sourceTree = "<group>";
+		};
+		B348ACCF3A5DDA5FDED3EC6C917E95D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2F1858BB298D96D4D1239277F49DA7 /* PYException.xcconfig */,
+				EE7109E093AD41CEA1E9ABCF2537D8C6 /* PYException-dummy.m */,
+				816A23A4BB2DE313E2E211AB726A9A97 /* PYException-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "PYExceptionDemo/Pods/Target Support Files/PYException";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -444,59 +460,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA96B2B4F2022A83CDAB8B962202DF7C /* Global */ = {
+		CCAC05F24197A634C46C1DD2D26C50FB /* NSNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				588A40D74266C2BEB45ADA06971F27C8 /* PYExceptionGlobal.h */,
-				1ED3133F8BAE7819A44A0E5ED6207DEA /* PYExceptionHandle.h */,
-				3BF8CE463870A06CCD5417BF4879052B /* PYExceptionHandle.m */,
+				BB9CA402EF5BC48D362790BE7B41C671 /* NSNotificationCenter+PYClear.h */,
+				DB6DB2453F14995C51A20999047F4FD3 /* NSNotificationCenter+PYClear.m */,
 			);
-			name = Global;
+			name = NSNotificationCenter;
+			path = PYException/MRC/NSNotificationCenter;
 			sourceTree = "<group>";
 		};
-		CB4DAEDD8A4E5DFE8ADBC8B3ABF68132 /* Fishhook */ = {
+		D5733872BE5B40304C1F416210235223 /* zombie */ = {
 			isa = PBXGroup;
 			children = (
-				81B0166680D2E65B7DED7BA577FEEA54 /* fishhook.c */,
-				4AF6F6723318C9E4D868B460959D691C /* fishhook.h */,
-				3FCDFBDFBFEE3A0DAEBB22FD2DDACD69 /* queue.c */,
-				5E642A3327C40FF8C4C237CAD86C3EF0 /* queue.h */,
+				A327AF1A1292596C317CA292FA4939DE /* NSObject+PYZombie.h */,
+				70EC11B0084EA1EF0BA17B672BB602E2 /* NSObject+PYZombie.m */,
+				BD0BCB4E8C673933061D7DB426C4487B /* PYZombieMonitor.h */,
+				72418DDC5AEEAD5C27FC08C0977F8741 /* PYZombieMonitor.m */,
+				AADD01DE45792EB389FE3C94A4E1857A /* PYZombieProxy.h */,
+				F89E9837129A7FCEE8F5D5EE209BBFA0 /* PYZombieProxy.m */,
 			);
-			name = Fishhook;
-			path = PYException/Swizzling/Fishhook;
+			name = zombie;
+			path = PYException/MRC/zombie;
 			sourceTree = "<group>";
 		};
-		D2F5C0F84975DC9B87E621E11FBE669F /* UI */ = {
+		D9A76C82D713C2FB12965D374855C7D0 /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
-				5F2370A759E7674C3C709473F13232C2 /* UIButton */,
-				DCCB00BCBDD37D21E5F013B10BEAC468 /* UILabel */,
-				7572EFC6CAA8D577CEC5B8030956C846 /* UITextField */,
-				B2ED188A0988042A4508289A79AAF869 /* WKWebView */,
+				69D6BBE131E58853CB81B8C7C80DCECF /* UITextField+PYException.h */,
+				4EFC3CD67711E57F8207EC0EA21890C2 /* UITextField+PYException.m */,
 			);
-			name = UI;
-			path = PYException/ARC/UI;
-			sourceTree = "<group>";
-		};
-		DCCB00BCBDD37D21E5F013B10BEAC468 /* UILabel */ = {
-			isa = PBXGroup;
-			children = (
-				844AA4DBAB22C9746884C894CDC43727 /* UILabel+PYException.h */,
-				373EC672F0AC47D0C899A5145438699F /* UILabel+PYException.m */,
-			);
-			name = UILabel;
-			path = UILabel;
-			sourceTree = "<group>";
-		};
-		DDD1FBAEDC5A7B3D019678C3CB97FD0A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				60B8C997E5188239010B6DFBC798E586 /* PYException.xcconfig */,
-				7371C983E09225E01645B96DD48F2FF2 /* PYException-dummy.m */,
-				DDD098A4244F0D1681FE4F1F60F0D7C8 /* PYException-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "PYExceptionDemo/Pods/Target Support Files/PYException";
+			name = UITextField;
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 		E32A5085C14E6B2A063DDB99D1BB0A69 /* Products */ = {
@@ -508,59 +503,80 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4CD6BC20634A1F031002FA228418860 /* NSUserDefaults */ = {
+		EE2AAE4C130D88E236C352C0131B6A57 /* NSMutableAttributedString */ = {
 			isa = PBXGroup;
 			children = (
-				C43AFEBF798FC8FAE28BC940D525A57B /* NSUserDefaults+PYException.h */,
-				07109654BA0E99F7F72A705DE2221D7F /* NSUserDefaults+PYException.m */,
+				EC0EF8018D9B5B458456D558EA26F766 /* NSMutableAttributedString+PYException.h */,
+				F3183A3947E440BEA098862F4652E0E1 /* NSMutableAttributedString+PYNException.m */,
 			);
-			name = NSUserDefaults;
-			path = PYException/ARC/NSUserDefaults;
+			name = NSMutableAttributedString;
+			path = PYException/ARC/NSMutableAttributedString;
 			sourceTree = "<group>";
 		};
-		E9BD4C5585B63CC9B234DAC0F05BE440 /* unrecognized */ = {
+		F62BC8EB98CA1BEE81A4892DEE4A2020 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				0C276C32DF52F7ACFB91382617C01E59 /* NSObject+unrecognized.h */,
-				4D79624FADD2DE410598B1787FC742B8 /* NSObject+unrecognized.m */,
+				538D1AF3F5502CB5DA7934C93036C0C8 /* NSDictionary+PYException.h */,
+				38512533A3F8E75468904DBFB2C30E77 /* NSDictionary+PYException.m */,
 			);
-			name = unrecognized;
-			path = PYException/MRC/unrecognized;
+			name = NSDictionary;
+			path = PYException/ARC/NSDictionary;
+			sourceTree = "<group>";
+		};
+		FE336762DF78D38CFC65682CA7C1FB39 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				56ED0A8791566BFAC227340BCF638668 /* PYExceptionGlobal.h */,
+				4B84DF6C0D7980E4DD80E295325F6261 /* PYExceptionHandle.h */,
+				A99979613BB42122368ABA2AC5979102 /* PYExceptionHandle.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		FE33B2EE77FB2C4C14077E026CB76E7C /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				1EC02FFD319AADAA5DC5D26890D385C6 /* NSString+PYException.h */,
+				61AE3282F1967BB18CA88B411CC66C73 /* NSString+PYException.m */,
+			);
+			name = NSString;
+			path = PYException/ARC/NSString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		922F4D661C2348F7B4B68EC71B5C922C /* Headers */ = {
+		42ED806321FE8A0C5DB669B2AFCC9459 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A753F95D01861B7BA6DE4CB1D739C884 /* fishhook.h in Headers */,
-				A09F427989A88392F7785775BCBEE174 /* NSArray+PYException.h in Headers */,
-				E153ABC72AA1DB4DC0F56F2CFB26449C /* NSDictionary+PYException.h in Headers */,
-				FFB2782F4DF623A5B828BDA6BEF0E6E8 /* NSJSONSerialization+PYException.h in Headers */,
-				1E1DCF3F00168D76C1C117CD16FDCBE4 /* NSMutableAttributedString+PYException.h in Headers */,
-				C12871A53D6C880EC4A18A7673E5E982 /* NSMutableString+PYException.h in Headers */,
-				2B27C2DFCDE2EC4C5215C30BB5B66A28 /* NSNotificationCenter+PYClear.h in Headers */,
-				C3845D34C352DE61A0E94916D99BE631 /* NSNull+PYException.h in Headers */,
-				9F8BCA3941B19ECC670BBC2FBD172C82 /* NSObject+PYDeallocBlock.h in Headers */,
-				6A3117D003A2406A2B3F98FE555952C5 /* NSObject+PYKVOException.h in Headers */,
-				3D0B840F3AF274F3334A2A068002270E /* NSObject+PYSwizzling.h in Headers */,
-				6C9F5527ED62CAF1B9EB9D4BE855649D /* NSObject+PYZombie.h in Headers */,
-				3C5DD24B1EBCF763F32A8D026DE46151 /* NSObject+unrecognized.h in Headers */,
-				BB5E2469780F5E17FDAA203BDC2BEBC3 /* NSString+PYException.h in Headers */,
-				13711690364C1A2651991F501701968C /* NSTimer+PYClean.h in Headers */,
-				3C2296BD22B5BEA4ABA47EC8F4575E54 /* NSUserDefaults+PYException.h in Headers */,
-				993ACC6429EDB101CB2DA50E61B197F8 /* PYExceptionGlobal.h in Headers */,
-				E4B73EC5DE084EB427509B18A08A4D42 /* PYExceptionHandle.h in Headers */,
-				2D311E73FA97377ACFE7EAA7B40F7F8F /* PYExceptionHeader.h in Headers */,
-				1D70C71495BFE52D40F8F09AD1FA4412 /* PYZombieMonitor.h in Headers */,
-				3A00AA500F96E93848BCA81538C27D2A /* PYZombieProxy.h in Headers */,
-				76452462A65B61872D1F27A459D45A17 /* queue.h in Headers */,
-				1EDB3DCC1C4FDE2D818A9CE04BA234A6 /* UIButton+PYException.h in Headers */,
-				8D09043AF5C68176EA66204B20BF2F21 /* UILabel+PYException.h in Headers */,
-				57280F8A297292ADDF7A063094D96724 /* UITextField+PYException.h in Headers */,
-				CF54E1B8C4E195057EFD34A4E92BB599 /* WKWebView+PYException.h in Headers */,
+				9C070A641E82DDF3D90BD7C3B93A4F6F /* fishhook.h in Headers */,
+				17EF3D098BE4754231D64DC17C50005E /* NSArray+PYException.h in Headers */,
+				45D13723F0B429045B26C5F7D5CDA65B /* NSDictionary+PYException.h in Headers */,
+				F8D984B2E68DA2D11AC13CDEA8796134 /* NSJSONSerialization+PYException.h in Headers */,
+				B1BB11A21D4701DF46229B92D1D310CC /* NSMutableAttributedString+PYException.h in Headers */,
+				65DB17944BA3E974094089020D6A8E81 /* NSMutableSet+PYException.h in Headers */,
+				3964BEE5DF2CD5C2F731CFB2309772B2 /* NSMutableString+PYException.h in Headers */,
+				8FBCF645981DB442B452B387BC793889 /* NSNotificationCenter+PYClear.h in Headers */,
+				B519190AD9BC3363A0C50802540E2E94 /* NSNull+PYException.h in Headers */,
+				6E3A3541A6A9564E757961294FA503ED /* NSObject+PYDeallocBlock.h in Headers */,
+				E22178D097CC314AD494521792E32319 /* NSObject+PYKVOException.h in Headers */,
+				7AC5BF8006734EE44863AF0F1093C0D9 /* NSObject+PYSwizzling.h in Headers */,
+				5BFD5A109A94CAF78F07DD5E92E20C6A /* NSObject+PYZombie.h in Headers */,
+				8F5F2A310DE8995A5B2E2D76CCCABC56 /* NSObject+unrecognized.h in Headers */,
+				F08C321914A6AB038117C220DECF817F /* NSString+PYException.h in Headers */,
+				975B3E3DC8C4E8AA09D4AF5DB1664C60 /* NSTimer+PYClean.h in Headers */,
+				449EDAFECAC08851E46750732B1D9C6B /* NSUserDefaults+PYException.h in Headers */,
+				BDED9985ECB1D76A63FF49C50FDBF79C /* PYExceptionGlobal.h in Headers */,
+				72B85337D92F74A22C66C292002C1284 /* PYExceptionHandle.h in Headers */,
+				4D3E72DC8B9A6B977251701271649258 /* PYExceptionHeader.h in Headers */,
+				FA20615D42D76FBDB84A2CCDEEDEA1CD /* PYZombieMonitor.h in Headers */,
+				0E9F69893DCF464C55DE667229612DFE /* PYZombieProxy.h in Headers */,
+				A12D4091FC4C5A48AD350C51643929CA /* queue.h in Headers */,
+				EEB1D1C8262563BE131CA8B915140C77 /* UIButton+PYException.h in Headers */,
+				E06C93D349A292DCCD2BA389B58FBC29 /* UILabel+PYException.h in Headers */,
+				365559873437F3A8153758970208F73C /* UITextField+PYException.h in Headers */,
+				567C2E54E3913454A608AB446F697343 /* WKWebView+PYException.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,8 +594,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3999646DB3434770E684AB20A12C9D8B /* Build configuration list for PBXNativeTarget "PYException" */;
 			buildPhases = (
-				922F4D661C2348F7B4B68EC71B5C922C /* Headers */,
-				C702077D73AD4A1C246AB43885A1F3BC /* Sources */,
+				42ED806321FE8A0C5DB669B2AFCC9459 /* Headers */,
+				599C8E5019C5C4FBED7F7FEF0A5389D7 /* Sources */,
 				6DC344054DB26F477871E523C0B24605 /* Frameworks */,
 			);
 			buildRules = (
@@ -645,35 +661,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C702077D73AD4A1C246AB43885A1F3BC /* Sources */ = {
+		599C8E5019C5C4FBED7F7FEF0A5389D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				396F8ED6A11E139F45A59BBCDC0F19AB /* fishhook.c in Sources */,
-				533DE971E3D833C0E95CB623CB7ECB3E /* NSArray+PYException.m in Sources */,
-				EE493F8C640D67A8CA6D5DB343DE8280 /* NSDictionary+PYException.m in Sources */,
-				4A9EF73111C9D1084939F5CEB91E0C68 /* NSJSONSerialization+PYException.m in Sources */,
-				EB2227A8FCFD6FB7924E137888284480 /* NSMutableAttributedString+PYNException.m in Sources */,
-				180EB44511A16A4FB4CCB8342319BA2C /* NSMutableString+PYException.m in Sources */,
-				9C1EC0F3A6DBF07068D53C03BB812AE7 /* NSNotificationCenter+PYClear.m in Sources */,
-				0D4A493762C44210E66210749086213E /* NSNull+PYException.m in Sources */,
-				02B2C9FAEF32A78B8420A4F4DA53AB28 /* NSObject+PYDeallocBlock.m in Sources */,
-				812AA9172D3B67614339FD0A8C36005D /* NSObject+PYKVOException.m in Sources */,
-				6B5E428A75EEA8095F59C35960FCC5D7 /* NSObject+PYSwizzling.m in Sources */,
-				B6ABA6F4BDC28C19F17F328AE52E5A58 /* NSObject+PYZombie.m in Sources */,
-				121755AD997D70750190B2481F164FC1 /* NSObject+unrecognized.m in Sources */,
-				E3D5BD07FF40BB6E8A7AF834D16F85E8 /* NSString+PYException.m in Sources */,
-				2AD7FCB3E7AF96D8E55BB33B453EC270 /* NSTimer+PYClean.m in Sources */,
-				D7D257072E4AA34D3B248D91637CC0CD /* NSUserDefaults+PYException.m in Sources */,
-				A46EBCD9B7B083F7AA88936B54C95732 /* PYException-dummy.m in Sources */,
-				5D4AAFFA7F1F4AC8263B2E3952A1E24E /* PYExceptionHandle.m in Sources */,
-				CB22AB04D8A09827021B8147054C9880 /* PYZombieMonitor.m in Sources */,
-				F98806047F73EFD6E1583FF1530FD713 /* PYZombieProxy.m in Sources */,
-				E9A5BB9203E51DD6DF8BF3069F548040 /* queue.c in Sources */,
-				02720478E9FDA1C3D0C0181E87AA2556 /* UIButton+PYException.m in Sources */,
-				28203639F7F26D9215540F2015A21081 /* UILabel+PYException.m in Sources */,
-				AD7BA1C5B9CCBDDD3267D340B3085924 /* UITextField+PYException.m in Sources */,
-				E98533A3056478EB14D8F30678FA13CE /* WKWebView+PYException.m in Sources */,
+				153B4D6E7A0064BC6E985AAAC8EAA497 /* fishhook.c in Sources */,
+				D1B321B22E181B989027570C07166683 /* NSArray+PYException.m in Sources */,
+				5606C72AD6FBBB5B51FF1E98DD45856C /* NSDictionary+PYException.m in Sources */,
+				14E057A0C617AA40624019F9E7D09CD6 /* NSJSONSerialization+PYException.m in Sources */,
+				2F37FDCC52AFA5E8C2AA262513827E24 /* NSMutableAttributedString+PYNException.m in Sources */,
+				2C35607F2E5611916C521D681150B447 /* NSMutableSet+PYException.m in Sources */,
+				2F54C8A63DC18DAD24E4975A6604CB7D /* NSMutableString+PYException.m in Sources */,
+				5E1464E68FAD85DD9D00335C9B1DF6F8 /* NSNotificationCenter+PYClear.m in Sources */,
+				98B2B4D4D9FC542A8EF5F9E84B9E99B5 /* NSNull+PYException.m in Sources */,
+				91D7693D46FD9E55072D0206CE1D9C78 /* NSObject+PYDeallocBlock.m in Sources */,
+				18A9E66911FADB7CE4BCF137211DB2F3 /* NSObject+PYKVOException.m in Sources */,
+				B08711C3617828D6B0F61300464BDE14 /* NSObject+PYSwizzling.m in Sources */,
+				B8CAB91C0D6F5B71F3CA0CCCDC432AE1 /* NSObject+PYZombie.m in Sources */,
+				8C0415854CE3B0BF7DE63C9D2A81A053 /* NSObject+unrecognized.m in Sources */,
+				FE765C55381F869CE67B967BEDC1FAB1 /* NSString+PYException.m in Sources */,
+				44F247AB6FFF6F1A8F64FACE5A57DB38 /* NSTimer+PYClean.m in Sources */,
+				E25A887488536030B636423BFCB4A970 /* NSUserDefaults+PYException.m in Sources */,
+				853BBC0DBEFAE679F3602355ECFCDD27 /* PYException-dummy.m in Sources */,
+				E7D7EB28C674A9DC96104F815ED83E2E /* PYExceptionHandle.m in Sources */,
+				A2FD100B315278A16A56AF80B9E0C761 /* PYZombieMonitor.m in Sources */,
+				1CCBCFF2E2AC6C5435ED4D2357ED084D /* PYZombieProxy.m in Sources */,
+				F842758CB45D17514B842FA696BA35EE /* queue.c in Sources */,
+				EB33A81E79CEC0708E35504EBA3F11A8 /* UIButton+PYException.m in Sources */,
+				B0F5992472FA8008B9215E10724AFC6E /* UILabel+PYException.m in Sources */,
+				7050F4621197BB702A79C83139D8953B /* UITextField+PYException.m in Sources */,
+				F4F2ADFF121E37CD4F2B81F7D4B611D1 /* WKWebView+PYException.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,7 +708,7 @@
 /* Begin XCBuildConfiguration section */
 		2193CEE8C86EE1A3BF7A5A81A2CEE524 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60B8C997E5188239010B6DFBC798E586 /* PYException.xcconfig */;
+			baseConfigurationReference = 9B2F1858BB298D96D4D1239277F49DA7 /* PYException.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -886,7 +903,7 @@
 		};
 		B25A8A122323C76C08F280BADA619EBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60B8C997E5188239010B6DFBC798E586 /* PYException.xcconfig */;
+			baseConfigurationReference = 9B2F1858BB298D96D4D1239277F49DA7 /* PYException.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
