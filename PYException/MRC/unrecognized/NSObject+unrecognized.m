@@ -8,6 +8,7 @@
 #import "NSObject+unrecognized.h"
 #import <objc/runtime.h>
 #import "PYExceptionGlobal.h"
+#import "PYExceptionHandle.h"
 
 @interface PYUnrecognizedSelectorHandle : NSObject
 @property(nonatomic,readwrite,assign)id fromObject;
@@ -16,7 +17,9 @@
 @implementation PYUnrecognizedSelectorHandle
 id unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
     NSString *message = [NSString stringWithFormat:@"Unrecognized selector class:%@ and selector:%@",[self.fromObject class],NSStringFromSelector(_cmd)];
-    NSLog(@"%@",message);
+    if ([PYExceptionHandle sharedExceptionHandle].didCatchExceptionBlock) {
+        [PYExceptionHandle sharedExceptionHandle].didCatchExceptionBlock(message);
+    }
     return 0;
 }
 + (instancetype) sharedInstance{

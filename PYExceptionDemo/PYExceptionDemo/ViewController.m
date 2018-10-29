@@ -63,8 +63,7 @@
 //    [NSNull performSelector:@selector(yupuyang:) withObject:nil];
 //    NSMutableArray *mut = [[NSMutableArray alloc] initWithObjects:@"kkk",@"bbb", nil];
 //    NSLog(@"%@",[mut objectAtIndexedSubscript:10]);
-    NSMutableSet *mutSet = [[NSMutableSet alloc] init];
-    [mutSet addObject:nil];
+  
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

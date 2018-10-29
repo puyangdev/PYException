@@ -20,6 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    [[PYExceptionHandle sharedExceptionHandle] setDidCatchExceptionBlock:^(NSString * _Nonnull errorMsg) {
+        NSLog(@"%@",errorMsg);
+    }];
     
     PYTestView *testView = [[PYTestView alloc] init];
     [testView retain];
@@ -30,6 +33,7 @@
     testView = nil;
 //    NSLog(@"===== %lu",(unsigned long)testView.retainCount);
     [testV setBackgroundColor:[UIColor redColor]];
+    [testV performSelector:@selector(testVAction:) withObject:nil];
 //    NSLog(@"%@",testV);
     [testV release];
 //    size_t size = class_getInstanceSize([testV class]);
@@ -37,7 +41,7 @@
     
 //    NSLog(@"%@",testV);
     NSLog(@"===================================");
-    [testV setAccessibilityIdentifier:@"yupuyang"];
+//    [testV setAccessibilityIdentifier:@"yupuyang"];
 //    [testV setBackgroundColor:[UIColor redColor]];
 //    NSLog(@"%@",testV);
     

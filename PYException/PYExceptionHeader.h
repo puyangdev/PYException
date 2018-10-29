@@ -31,4 +31,6 @@
 #import "NSObject+PYZombie.h"
 #import "PYExceptionHandle.h"
 #import "NSMutableSet+PYException.h"
+#import "PYExceptionHandle.h"
+
 #endif /* PYExceptionHeader_h */
