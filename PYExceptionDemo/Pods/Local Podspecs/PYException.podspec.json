@@ -1,6 +1,6 @@
 {
   "name": "PYException",
-  "version": "0.1.43",
+  "version": "0.1.44",
   "summary": "PYException...Help developers reduce crash",
   "description": "PYException,Help developers reduce crash,example arr dic..and so on",
   "homepage": "https://github.com/puyangdev/PYException",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/puyangdev/PYException.git",
-    "tag": "0.1.43"
+    "tag": "0.1.44"
   },
   "default_subspecs": "All",
   "frameworks": "Foundation",
