@@ -27,11 +27,13 @@
 }
 
 - (id)py_objectAtIndexedSubscript:(NSUInteger)idx {
-    if (idx >= self.count || index < 0) {
-        NSLog(@"=============数组越界==================");
-        return nil;
+    @autoreleasepool {
+        if (idx >= self.count || index < 0) {
+            NSLog(@"=============数组越界==================");
+            return nil;
+        }
+        return [self py_objectAtIndexedSubscript:idx];
     }
-    return [self py_objectAtIndexedSubscript:idx];
 }
 
 - (id)py_emptyObjectIndex:(NSInteger)index {
@@ -39,19 +41,23 @@
 }
 
 - (id)py_arrObjectIndex:(NSInteger)index {
-    if (index >= self.count || index < 0) {
-        NSLog(@"=============数组越界==================");
-        return nil;
+    @autoreleasepool {
+        if (index >= self.count || index < 0) {
+            NSLog(@"=============数组越界==================");
+            return nil;
+        }
+        return [self py_arrObjectIndex:index];
     }
-    return [self py_arrObjectIndex:index];
 }
 
 - (id)py_mutableObjectIndex:(NSInteger)index {
-    if (index >= self.count || index < 0) {
-        NSLog(@"=============数组越界==================");
-        return nil;
+    @autoreleasepool {
+        if (index >= self.count || index < 0) {
+            NSLog(@"=============数组越界==================");
+            return nil;
+        }
+        return [self py_mutableObjectIndex:index];
     }
-    return [self py_mutableObjectIndex:index];
 }
 
 - (void)py_mutableInsertObject:(id)object atIndex:(NSUInteger)index{
