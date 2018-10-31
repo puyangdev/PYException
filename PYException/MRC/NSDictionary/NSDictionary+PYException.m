@@ -17,12 +17,14 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [objc_getClass("__NSDictionaryI") py_swizzleMethod:@selector(objectForKey:) swizzledSelector:@selector(py_replace_objectForKey:)];
-                [objc_getClass("__NSDictionaryI") py_swizzleMethod:@selector(length) swizzledSelector:@selector(py_replace_length)];
-                [objc_getClass("__NSDictionaryM") py_swizzleMethod:@selector(setObject:forKey:) swizzledSelector:@selector(py_setObject:forKey:)];
-                [objc_getClass("__NSDictionaryM") py_swizzleMethod:@selector(setObject:forKeyedSubscript:) swizzledSelector:@selector(py_setObject:forKeyedSubscript:)];
-                [objc_getClass("__NSPlaceholderDictionary") py_swizzleMethod:@selector(initWithObjects:forKeys:count:)
-                                                            swizzledSelector:@selector(py_initWithObjects:forKeys:count:)];
+                 if ([[UIDevice currentDevice].systemVersion floatValue] >= 9.9) {
+                    [objc_getClass("__NSDictionaryI") py_swizzleMethod:@selector(objectForKey:) swizzledSelector:@selector(py_replace_objectForKey:)];
+                    [objc_getClass("__NSDictionaryI") py_swizzleMethod:@selector(length) swizzledSelector:@selector(py_replace_length)];
+                    [objc_getClass("__NSDictionaryM") py_swizzleMethod:@selector(setObject:forKey:) swizzledSelector:@selector(py_setObject:forKey:)];
+                    [objc_getClass("__NSDictionaryM") py_swizzleMethod:@selector(setObject:forKeyedSubscript:) swizzledSelector:@selector(py_setObject:forKeyedSubscript:)];
+                    [objc_getClass("__NSPlaceholderDictionary") py_swizzleMethod:@selector(initWithObjects:forKeys:count:)
+                                                                swizzledSelector:@selector(py_initWithObjects:forKeys:count:)];
+                 }
             }
         }
     });
