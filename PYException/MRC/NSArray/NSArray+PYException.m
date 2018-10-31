@@ -23,12 +23,20 @@
                     [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(insertObject:atIndex:) swizzledSelector:@selector(py_mutableInsertObject:atIndex:)];
                     [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(integerValue) swizzledSelector:@selector(py_replace_integerValue)];
                     [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(objectAtIndexedSubscript:) swizzledSelector:@selector(py_objectAtIndexedSubscript:)];
+                     [objc_getClass("__NSArrayM") py_swizzleMethod:@selector(removeObjectAtIndex:) swizzledSelector:@selector(py_removeObjectAtIndex:)];
                 }
             }
         }
     });
 }
 
+- (void)py_removeObjectAtIndex:(NSUInteger)index {
+    if (index >= self.count || index < 0) {
+        NSLog(@"=============数组越界==================");
+        return;
+    }
+    [self py_removeObjectAtIndex:index];
+}
 - (id)py_objectAtIndexedSubscript:(NSUInteger)idx {
     @autoreleasepool {
         if (idx >= self.count || index < 0) {
