@@ -16,8 +16,10 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [self py_swizzleClassMethod:@selector(dataWithJSONObject:options:error:) swizzledSelector:@selector(py_dataWithJSONObject:options:error:)];
-                [self py_swizzleClassMethod:@selector(JSONObjectWithData:options:error:) swizzledSelector:@selector(py_JSONObjectWithData:options:error:)];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                    [self py_swizzleClassMethod:@selector(dataWithJSONObject:options:error:) swizzledSelector:@selector(py_dataWithJSONObject:options:error:)];
+                    [self py_swizzleClassMethod:@selector(JSONObjectWithData:options:error:) swizzledSelector:@selector(py_JSONObjectWithData:options:error:)];
+                }
             }
         }
     });

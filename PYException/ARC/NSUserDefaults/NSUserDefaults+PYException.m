@@ -18,7 +18,9 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [[self class] py_swizzleMethod:@selector(setObject: forKey:) swizzledSelector:@selector(py_setObject: forKey:)];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                    [[self class] py_swizzleMethod:@selector(setObject: forKey:) swizzledSelector:@selector(py_setObject: forKey:)];
+                }
             }
         }
     });

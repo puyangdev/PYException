@@ -15,7 +15,9 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [self progressWKContentViewCrash];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                     [self progressWKContentViewCrash];
+                }
             }
         }
     });

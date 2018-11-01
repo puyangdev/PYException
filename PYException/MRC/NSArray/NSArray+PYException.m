@@ -15,7 +15,7 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                if ([[UIDevice currentDevice].systemVersion floatValue] >= 9.9) {
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
                     [objc_getClass("__NSArray0") py_swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(py_emptyObjectIndex:)];
                     
                         [objc_getClass("__NSArrayI") py_swizzleMethod:@selector(objectAtIndex:) swizzledSelector:@selector(py_arrObjectIndex:)];

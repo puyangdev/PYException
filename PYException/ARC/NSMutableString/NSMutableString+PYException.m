@@ -17,8 +17,10 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [objc_getClass("__NSCFString") py_swizzleMethod:@selector(replaceCharactersInRange:withString:) swizzledSelector:@selector(py_alert_replaceCharactersInRange:withString:)];
-                [objc_getClass("__NSCFString") py_swizzleMethod:@selector(objectForKeyedSubscript:) swizzledSelector:@selector(py_replace_objectForKeyedSubscript:)];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                    [objc_getClass("__NSCFString") py_swizzleMethod:@selector(replaceCharactersInRange:withString:) swizzledSelector:@selector(py_alert_replaceCharactersInRange:withString:)];
+                    [objc_getClass("__NSCFString") py_swizzleMethod:@selector(objectForKeyedSubscript:) swizzledSelector:@selector(py_replace_objectForKeyedSubscript:)];
+                }
             }
         }
     });

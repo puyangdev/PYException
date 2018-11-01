@@ -44,7 +44,9 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [[NSTimer class] py_swizzleClassMethod:@selector(scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:) swizzledSelector:@selector(py_scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:)];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                    [[NSTimer class] py_swizzleClassMethod:@selector(scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:) swizzledSelector:@selector(py_scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:)];
+                }
             }
         }
     });

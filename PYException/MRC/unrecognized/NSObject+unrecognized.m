@@ -45,7 +45,9 @@ id unrecognizedSelector(PYUnrecognizedSelectorHandle* self, SEL _cmd){
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [[self class] py_swizzleMethod:@selector(forwardingTargetForSelector:) swizzledSelector:@selector(py_forwardingTargetForSelectorSwizzled:)];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                     [[self class] py_swizzleMethod:@selector(forwardingTargetForSelector:) swizzledSelector:@selector(py_forwardingTargetForSelectorSwizzled:)];
+                }
             }
         }
     });

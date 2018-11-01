@@ -15,7 +15,9 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [objc_getClass("__NSSetM") py_swizzleMethod:@selector(addObject:) swizzledSelector:@selector(py_addObject:)];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                    [objc_getClass("__NSSetM") py_swizzleMethod:@selector(addObject:) swizzledSelector:@selector(py_addObject:)];
+                }
             }
         }
     });

@@ -17,7 +17,9 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                 [objc_getClass("NSConcreteMutableAttributedString") py_swizzleMethod:@selector(replaceCharactersInRange:withString:) swizzledSelector:@selector(py_alert_replaceCharactersInRange:withString:)];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                    [objc_getClass("NSConcreteMutableAttributedString") py_swizzleMethod:@selector(replaceCharactersInRange:withString:) swizzledSelector:@selector(py_alert_replaceCharactersInRange:withString:)];
+                }
             }
         }
     });

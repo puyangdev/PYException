@@ -17,14 +17,16 @@
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
             if (!DEBUG_FLAG) {
-                [objc_getClass("NSNull") py_swizzleMethod:@selector(length) swizzledSelector:@selector(py_replace_length)];
-                [objc_getClass("NSNull") py_swizzleMethod:@selector(integerValue) swizzledSelector:@selector(py_integerValue)];
-                [objc_getClass("NSNull") py_swizzleMethod:@selector(floatValue) swizzledSelector:@selector(py_floatValue)];
-                [objc_getClass("NSNull") py_swizzleMethod:@selector(description) swizzledSelector:@selector(py_description)];
-                [objc_getClass("NSNull") py_swizzleMethod:@selector(componentsSeparatedByString:) swizzledSelector:@selector(py_componentsSeparatedByString:)];
-                [objc_getClass("NSNull") py_swizzleMethod:@selector(objectForKey:) swizzledSelector:@selector(py_objectForKey:)];
-                [objc_getClass("NSNull") py_swizzleMethod:@selector(boolValue) swizzledSelector:@selector(py_boolValue)];
-                [objc_getClass("NSNull") py_swizzleMethod:@selector(rangeOfCharacterFromSet:) swizzledSelector:@selector(py_rangeOfCharacterFromSet:)];
+                if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.9) {
+                    [objc_getClass("NSNull") py_swizzleMethod:@selector(length) swizzledSelector:@selector(py_replace_length)];
+                    [objc_getClass("NSNull") py_swizzleMethod:@selector(integerValue) swizzledSelector:@selector(py_integerValue)];
+                    [objc_getClass("NSNull") py_swizzleMethod:@selector(floatValue) swizzledSelector:@selector(py_floatValue)];
+                    [objc_getClass("NSNull") py_swizzleMethod:@selector(description) swizzledSelector:@selector(py_description)];
+                    [objc_getClass("NSNull") py_swizzleMethod:@selector(componentsSeparatedByString:) swizzledSelector:@selector(py_componentsSeparatedByString:)];
+                    [objc_getClass("NSNull") py_swizzleMethod:@selector(objectForKey:) swizzledSelector:@selector(py_objectForKey:)];
+                    [objc_getClass("NSNull") py_swizzleMethod:@selector(boolValue) swizzledSelector:@selector(py_boolValue)];
+                    [objc_getClass("NSNull") py_swizzleMethod:@selector(rangeOfCharacterFromSet:) swizzledSelector:@selector(py_rangeOfCharacterFromSet:)];
+                }
             }
         }
     });
